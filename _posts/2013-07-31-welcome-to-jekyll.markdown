@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello World!"
 date:   2013-07-30 21:34:46
-categories: jekyll update
+categories: musings
 ---
 
 Listening to [The Web Ahead](http://5by5.tv/webahead/54) today and it got me thinking about trying [Jekyll](http://jekyllrb.com/).
