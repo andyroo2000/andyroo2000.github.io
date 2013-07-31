@@ -4,9 +4,9 @@
 http_path = "/"
 css_dir = "/_site/css"
 sass_dir = "scss"
-images_dir = "/_site/images"
-javascripts_dir = "/_site/js"
-fonts_dir = "/_site/fonts"
+images_dir = "images"
+javascripts_dir = "js"
+fonts_dir = "fonts"
 
 output_style = :nested
 

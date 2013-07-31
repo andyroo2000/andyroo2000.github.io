@@ -1,4 +1,4 @@
 name: bits and beeps
 markdown: redcarpet
 pygments: true
-keep_files: ['css']
+keep_files: ['.css']
