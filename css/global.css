@@ -19,7 +19,7 @@ html, body {
 
 /* line 15, ../scss/_main.scss */
 body {
-  background-color: lightgray;
+  background-color: #ff0;
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center; }
