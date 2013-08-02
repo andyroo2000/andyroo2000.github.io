@@ -14,7 +14,7 @@ html, body { height: 100%; }
 
 body {
   background-color: #f6f1c4;
-  font: 1em Helvetica, Arial, sans-serif;
+  font-family: "freight-micro-pro",serif;
   text-align: center;
 }
 
@@ -68,7 +68,7 @@ ul.posts span {
 .site a {
   color: #76c08c;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: normal;
   font-style: italic;
 }
 
@@ -79,6 +79,8 @@ ul.posts span {
 }
 
 .site .header h1.title a {
+  font-family: "source-code-pro",sans-serif;
+  font-weight: bold;
   color: #d65244;
   font-style: normal;
 }
@@ -103,7 +105,7 @@ ul.posts span {
 .site .footer {
   font-size: 80%;
   color: #666;
-  border-top: 4px solid #eee;
+  border-top: 1px solid gray;
   margin-top: 2em;
   overflow: hidden;
 }
@@ -164,3 +166,4 @@ ul.posts span {
 .post pre.terminal code {
   background-color: #333;
 }
+
