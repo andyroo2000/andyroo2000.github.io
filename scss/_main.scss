@@ -19,9 +19,9 @@ body {
 }
 
 h1 { 
-  margin-bottom: 1em;
+  margin-bottom: .5em;
   font-style: normal;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 p { margin: 1em 0; }
@@ -72,14 +72,24 @@ ul.posts span {
   font-style: italic;
 }
 
+.header {
+  margin-bottom: 2em;
+}
+
 .site .header h1.title {
   display: inline-block;
-  margin-bottom: 1em;
+  margin-bottom: 0em;
   font-size: 3em;
 }
 
+.site .header h2.site-description {
+  font-family: "anonymous-pro",sans-serif;
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
 .site .header h1.title a {
-  font-family: "source-code-pro",sans-serif;
+  font-family: "anonymous-pro",sans-serif;
   font-weight: bold;
   color: #d65244;
   font-style: normal;
