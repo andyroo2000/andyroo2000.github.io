@@ -5,6 +5,12 @@
 
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
+        <!-- html5shiv -->
+        <!--[if lt IE 9]>
+        <script src="dist/html5shiv.js"></script>
+        <![endif]-->
+
+
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
@@ -24,19 +30,14 @@
 
         <div class="container">
           <div class="site">
-            <div class="header">
+            <header>
               <h1 class="title"><a href="/">{{ site.name }}</a></h1>
               <h2 class="site-description">my adventures in code</h2>
-            </div>
+            </header>
             
-
-
                 {{ content }}
 
-
-                          
-
-            <div class="footer">
+            <footer>
               <div class="contact">
                 <p>
                   Andrew Landry<br />
@@ -50,7 +51,7 @@
                   <a href="https://twitter.com/androidland">twitter.com/androidland</a><br />
                 </p>
               </div>
-            </div>
+            </footer>
           </div>
         </div> <!-- /container -->
 
