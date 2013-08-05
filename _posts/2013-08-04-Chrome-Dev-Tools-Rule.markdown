@@ -9,7 +9,11 @@ I was asking a friend of mine for advice on learning front-end and he gave me th
 
 One of those tools was [CodeKit](https://incident57.com/codekit/), which *is* totally amazing (and which I bought after using for the trial period). The other piece of advice was to become intimately familiar with Chrome DevTools.
 
+<<<<<<< HEAD
 I thought that I more or less understood what happened when I hit **command-option-i**, but that advice kept echoing in my head and it occurred to me that it must be worth digging deeper, since it was one of only two specific pieces of software that he mentioned.
+=======
+I thought that I more or less understood what happneed when I hit **command-option-i**, but that advice kept echoing in my head and it occurred to me that it must be worth digging deeper, since it was one of only two specific pieces of software that he mentioned.
+>>>>>>> 8103d6f0fc9e2f7091e7a9c27d846a9d89428207
 
 I figured I'd check and see if there was a decent tutorial on Chrome DevTools and found [this incredible series](http://discover-devtools.codeschool.com) on [CodeSchool](http://www.codeschool.com).
 
