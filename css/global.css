@@ -70,58 +70,70 @@ ul.posts span {
 .site {
   font-size: 1.2em;
   text-align: left;
-  width: 50%;
   margin: 3em auto 2em;
   line-height: 1.5em;
-  color: #0f0f0f;
+  color: #797167;
+  width: 40%;
 }
 
 /* line 65, ../scss/_main.scss */
 a {
-  color: #338BC9;
-  background-color: #FFF4B3;
+  color: #BA4C58;
+  background-color: #C1E8D8;
   text-decoration: none;
   font-weight: normal;
   font-style: italic;
-  padding: 0em .2em;
+  padding: 0em .4em;
+  -webkit-box-shadow: black;
+  -moz-box-shadow: black;
+  box-shadow: black;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition-duration: 0.15s;
+  -moz-transition-duration: 0.15s;
+  -o-transition-duration: 0.15s;
+  transition-duration: 0.15s;
 }
 
-/* line 74, ../scss/_main.scss */
+/* line 77, ../scss/_main.scss */
 a:hover {
-  color: #323EC8;
-  background-color: #FFF09B;
+  color: black;
+  background-color: #D3D3D3;
 }
 
-/* line 79, ../scss/_main.scss */
+/* line 83, ../scss/_main.scss */
 header {
   margin-bottom: 2em;
 }
 
-/* line 83, ../scss/_main.scss */
+/* line 87, ../scss/_main.scss */
 header h1.title {
   display: inline-block;
   margin-bottom: 0em;
   font-size: 3em;
 }
 
-/* line 89, ../scss/_main.scss */
+/* line 93, ../scss/_main.scss */
 header h2.site-description {
   font-family: "anonymous-pro",sans-serif;
   font-size: 1em;
   margin-bottom: 1em;
 }
 
-/* line 95, ../scss/_main.scss */
+/* line 99, ../scss/_main.scss */
 header h1.title a {
   font-family: "anonymous-pro",sans-serif;
   font-weight: bold;
-  color: #CA3B50;
+  color: #BA4C58;
   background-color: transparent;
   font-style: normal;
   padding: 0;
 }
 
-/* line 107, ../scss/_main.scss */
+/* line 111, ../scss/_main.scss */
 footer {
   font-size: 80%;
   color: #666;
@@ -130,20 +142,20 @@ footer {
   overflow: hidden;
 }
 
-/* line 115, ../scss/_main.scss */
+/* line 119, ../scss/_main.scss */
 footer .contact {
   float: left;
   margin-right: 3em;
 }
 
-/* line 122, ../scss/_main.scss */
+/* line 124, ../scss/_main.scss */
 footer .rss {
   margin-top: 1.1em;
   margin-right: -.2em;
   float: right;
 }
 
-/* line 128, ../scss/_main.scss */
+/* line 130, ../scss/_main.scss */
 footer .rss img {
   border: 0;
 }
@@ -154,45 +166,83 @@ footer .rss img {
 /*
 /*****************************************************************************/
 /* standard */
-/* line 139, ../scss/_main.scss */
+/* line 141, ../scss/_main.scss */
 article pre {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .4em;
 }
 
-/* line 145, ../scss/_main.scss */
+/* line 147, ../scss/_main.scss */
 article ul, article ol {
   margin-left: 1.35em;
 }
 
-/* line 149, ../scss/_main.scss */
+/* line 151, ../scss/_main.scss */
 article code {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .2em;
 }
 
-/* line 155, ../scss/_main.scss */
+/* line 157, ../scss/_main.scss */
 article pre code {
   border: none;
 }
 
 /* terminal */
-/* line 160, ../scss/_main.scss */
+/* line 162, ../scss/_main.scss */
 article pre.terminal {
   border: 1px solid #000;
   background-color: #333;
   color: #FFF;
 }
 
-/* line 166, ../scss/_main.scss */
+/* line 168, ../scss/_main.scss */
 article pre.terminal code {
   background-color: #333;
 }
 
-/* line 170, ../scss/_main.scss */
+/* line 172, ../scss/_main.scss */
 article {
   padding: 0 0 1.5em 0;
   border-bottom: 1px solid gray;
+}
+
+/* MEDIA QUERIES-------- */
+@media screen and (max-width: 1270px) {
+  /* line 181, ../scss/_main.scss */
+  .site {
+    width: 55%;
+  }
+}
+@media screen and (max-width: 1050px) {
+  /* line 185, ../scss/_main.scss */
+  .site {
+    width: 57%;
+  }
+}
+@media screen and (max-width: 950px) {
+  /* line 189, ../scss/_main.scss */
+  .site {
+    width: 68%;
+  }
+}
+@media screen and (max-width: 750px) {
+  /* line 193, ../scss/_main.scss */
+  .site {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 550px) {
+  /* line 197, ../scss/_main.scss */
+  .site {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 201, ../scss/_main.scss */
+  .site {
+    width: 95%;
+  }
 }
