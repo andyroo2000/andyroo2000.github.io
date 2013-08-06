@@ -347,3 +347,9 @@ article {
     font-size: 2em;
   }
 }
+@media screen and (max-width: 800px) {
+  /* line 251, ../scss/_main.scss */
+  .contact {
+    font-size: 80%;
+  }
+}

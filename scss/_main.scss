@@ -246,3 +246,9 @@ article {
     font-size: 2em;
   }
 }
+
+@media screen and (max-width : 800px) {
+  .contact {
+    font-size: 80%;
+  }
+}
