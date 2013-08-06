@@ -12,10 +12,12 @@ html, body { height: 100%; }
   width: 100%;
   height: 6em;
   position: relative;
+  @include text-shadow(rgba(black, .5) 1px 1px 0);
 }
 
 .content {
   padding: 2em 0em 0em 0em;
+
 }
 
 .container {
@@ -94,6 +96,16 @@ a:hover {
   background-color: #BA4C58;
   padding: 2em 0em 0.4em 0em;
   @include box-shadow;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
 header h1.title {
@@ -228,7 +240,7 @@ article {
 
 
 
-/* Font-size change for title for small screens */
+/* Font-size change for title for small screens*/
 @media screen and (max-width : 615px) {
   header h1.title {
     font-size: 2em;
