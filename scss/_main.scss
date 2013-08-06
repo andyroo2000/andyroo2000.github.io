@@ -10,7 +10,7 @@ html, body { height: 100%; }
   @include box-shadow;
   background-color: #414844;
   width: 100%;
-  height: 5em;
+  height: 8em;
   position: relative;
   @include text-shadow(rgba(black, .5) 1px 1px 2px);
 }
@@ -22,12 +22,12 @@ html, body { height: 100%; }
 
 .container {
   min-height: 100%;
-  margin-bottom: -5em;
+  margin-bottom: -8em;
   position: relative;
 }
 
 .clearfooter {
-  height: 5em;
+  height: 8em;
   clear: both;
 }
 
@@ -94,7 +94,7 @@ a:hover {
 
 #top {
   background-color: #BA4C58;
-  padding: 2em 0em 0.4em 0em;
+  padding: 2.5em 0em 0.4em 0em;
   @include box-shadow;
 }
 
@@ -141,6 +141,9 @@ footer {
 footer .contact {
   float: left;
   margin-right: 3em;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  padding: 0.2em 0em 0em 0em;
 }
 
 
@@ -238,8 +241,6 @@ article {
   }
 }
 
-
-
 /* Font-size change for title for small screens*/
 @media screen and (max-width : 615px) {
   header h1.title {
@@ -247,8 +248,4 @@ article {
   }
 }
 
-@media screen and (max-width : 800px) {
-  .contact {
-    font-size: 80%;
-  }
-}
+
