@@ -86,9 +86,9 @@ html, body {
   box-shadow: 0px 0px 5px #333333;
   background-color: #414844;
   width: 100%;
-  height: 6em;
+  height: 5em;
   position: relative;
-  text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 0;
+  text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 2px;
 }
 
 /* line 18, ../scss/_main.scss */
@@ -99,13 +99,13 @@ html, body {
 /* line 23, ../scss/_main.scss */
 .container {
   min-height: 100%;
-  margin-bottom: -6em;
+  margin-bottom: -5em;
   position: relative;
 }
 
 /* line 29, ../scss/_main.scss */
 .clearfooter {
-  height: 6em;
+  height: 5em;
   clear: both;
 }
 
@@ -345,5 +345,16 @@ article {
   /* line 245, ../scss/_main.scss */
   header h1.title {
     font-size: 2em;
+  }
+
+  /* line 248, ../scss/_main.scss */
+  .contact {
+    font-size: 80%;
+  }
+}
+@media screen and (max-width: 800px) {
+  /* line 255, ../scss/_main.scss */
+  .contact {
+    font-size: 80%;
   }
 }

@@ -10,9 +10,9 @@ html, body { height: 100%; }
   @include box-shadow;
   background-color: #414844;
   width: 100%;
-  height: 6em;
+  height: 5em;
   position: relative;
-  @include text-shadow(rgba(black, .5) 1px 1px 0);
+  @include text-shadow(rgba(black, .5) 1px 1px 2px);
 }
 
 .content {
@@ -22,12 +22,12 @@ html, body { height: 100%; }
 
 .container {
   min-height: 100%;
-  margin-bottom: -6em;
+  margin-bottom: -5em;
   position: relative;
 }
 
 .clearfooter {
-  height: 6em;
+  height: 5em;
   clear: both;
 }
 
@@ -245,4 +245,16 @@ article {
   header h1.title {
     font-size: 2em;
   }
+  .contact {
+    font-size: 80%;
+  }
 }
+
+
+@media screen and (max-width : 800px) {
+  .contact {
+    font-size: 80%;
+  }
+}
+
+
