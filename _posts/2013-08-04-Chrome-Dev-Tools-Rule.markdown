@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Chrome DevTools Rules"
+title:  "Chrome DevTools Rule"
 date:   2013-08-04 03:34:46
 categories: musings
 ---
