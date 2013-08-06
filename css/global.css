@@ -346,15 +346,4 @@ article {
   header h1.title {
     font-size: 2em;
   }
-
-  /* line 248, ../scss/_main.scss */
-  .contact {
-    font-size: 80%;
-  }
-}
-@media screen and (max-width: 800px) {
-  /* line 254, ../scss/_main.scss */
-  .contact {
-    font-size: 80%;
-  }
 }
