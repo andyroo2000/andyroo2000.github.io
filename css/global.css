@@ -2,38 +2,62 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/*****************************************************************************/
-/*
-/* Common
-/*
-/*****************************************************************************/
 /* Global Reset */
-/* line 8, ../scss/_main.scss */
+/* line 2, ../scss/_main.scss */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* line 13, ../scss/_main.scss */
+/* line 7, ../scss/_main.scss */
 html, body {
   height: 100%;
 }
 
-/* line 15, ../scss/_main.scss */
+/* line 9, ../scss/_main.scss */
+#bottom {
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+  background-color: #414844;
+  width: 100%;
+  height: 6em;
+  position: relative;
+}
+
+/* line 17, ../scss/_main.scss */
+.content {
+  padding: 2em 0em 0em 0em;
+}
+
+/* line 21, ../scss/_main.scss */
+.container {
+  min-height: 100%;
+  margin-bottom: -6em;
+  position: relative;
+}
+
+/* line 27, ../scss/_main.scss */
+.clearfooter {
+  height: 6em;
+  clear: both;
+}
+
+/* line 32, ../scss/_main.scss */
 body {
   background-color: #F0F0F0;
   font-family: "freight-micro-pro",serif;
   text-align: center;
 }
 
-/* line 21, ../scss/_main.scss */
+/* line 38, ../scss/_main.scss */
 h1 {
   margin-bottom: .5em;
   font-style: normal;
   font-size: 1.5em;
 }
 
-/* line 27, ../scss/_main.scss */
+/* line 44, ../scss/_main.scss */
 p {
   margin: 1em 0;
 }
@@ -43,18 +67,18 @@ p {
 /* Home
 /*
 /*****************************************************************************/
-/* line 35, ../scss/_main.scss */
+/* line 52, ../scss/_main.scss */
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
 }
 
-/* line 40, ../scss/_main.scss */
+/* line 57, ../scss/_main.scss */
 ul.posts li {
   line-height: 1.75em;
 }
 
-/* line 44, ../scss/_main.scss */
+/* line 61, ../scss/_main.scss */
 ul.posts span {
   color: #aaa;
   font-family: Monaco, "Courier New", monospace;
@@ -66,16 +90,15 @@ ul.posts span {
 /* Site
 /*
 /*****************************************************************************/
-/* line 56, ../scss/_main.scss */
+/* line 73, ../scss/_main.scss */
 .site {
   font-size: 1.2em;
   text-align: left;
-  margin: 0em auto 2em;
   line-height: 1.5em;
   color: #797167;
 }
 
-/* line 64, ../scss/_main.scss */
+/* line 80, ../scss/_main.scss */
 a {
   color: #3888AD;
   text-decoration: none;
@@ -87,26 +110,29 @@ a {
   transition-duration: 0.4s;
 }
 
-/* line 72, ../scss/_main.scss */
+/* line 88, ../scss/_main.scss */
 a:hover {
   color: black;
   background-color: #F5E498;
 }
 
-/* line 77, ../scss/_main.scss */
+/* line 93, ../scss/_main.scss */
 #top {
   background-color: #BA4C58;
   padding: 2em 0em 0.4em 0em;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
 }
 
-/* line 86, ../scss/_main.scss */
+/* line 99, ../scss/_main.scss */
 header h1.title {
   display: inline-block;
   margin-bottom: 0em;
   font-size: 3em;
 }
 
-/* line 92, ../scss/_main.scss */
+/* line 105, ../scss/_main.scss */
 header h2.site-description {
   font-family: "anonymous-pro",sans-serif;
   font-size: 1em;
@@ -114,7 +140,7 @@ header h2.site-description {
   color: #fff;
 }
 
-/* line 99, ../scss/_main.scss */
+/* line 112, ../scss/_main.scss */
 header h1.title a {
   font-family: "anonymous-pro",sans-serif;
   font-weight: bold;
@@ -124,31 +150,20 @@ header h1.title a {
   padding: 0;
 }
 
-/* line 111, ../scss/_main.scss */
+/* line 121, ../scss/_main.scss */
 footer {
-  font-size: 80%;
-  color: #666;
-  border-top: 1px solid gray;
-  margin-top: 2em;
-  overflow: hidden;
+  color: #fff;
+  text-align: left;
+}
+/* line 124, ../scss/_main.scss */
+footer a:link {
+  font-weight: normal;
 }
 
-/* line 119, ../scss/_main.scss */
+/* line 129, ../scss/_main.scss */
 footer .contact {
   float: left;
   margin-right: 3em;
-}
-
-/* line 124, ../scss/_main.scss */
-footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
-  float: right;
-}
-
-/* line 130, ../scss/_main.scss */
-footer .rss img {
-  border: 0;
 }
 
 /*****************************************************************************/
@@ -157,57 +172,52 @@ footer .rss img {
 /*
 /*****************************************************************************/
 /* standard */
-/* line 141, ../scss/_main.scss */
+/* line 142, ../scss/_main.scss */
 article pre {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .4em;
 }
 
-/* line 147, ../scss/_main.scss */
+/* line 148, ../scss/_main.scss */
 article ul, article ol {
   margin-left: 1.35em;
 }
 
-/* line 151, ../scss/_main.scss */
+/* line 152, ../scss/_main.scss */
 article code {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .2em;
 }
 
-/* line 157, ../scss/_main.scss */
+/* line 158, ../scss/_main.scss */
 article pre code {
   border: none;
 }
 
 /* terminal */
-/* line 162, ../scss/_main.scss */
+/* line 163, ../scss/_main.scss */
 article pre.terminal {
   border: 1px solid #000;
   background-color: #333;
   color: #FFF;
 }
 
-/* line 168, ../scss/_main.scss */
+/* line 169, ../scss/_main.scss */
 article pre.terminal code {
   background-color: #333;
 }
 
-/* line 172, ../scss/_main.scss */
+/* line 173, ../scss/_main.scss */
 article {
   padding: 0 0 1.5em 0;
   border-bottom: 1px solid gray;
 }
 
-/* line 177, ../scss/_main.scss */
-.content {
-  padding: 2.5em 0em 0em 0em;
-}
-
 /* MEDIA QUERIES-------- */
 @media screen and (min-width: 1271px) {
-  /* line 185, ../scss/_main.scss */
+  /* line 184, ../scss/_main.scss */
   .content, header, footer {
     width: 40%;
     margin-left: auto;
@@ -215,7 +225,7 @@ article {
   }
 }
 @media screen and (max-width: 1270px) {
-  /* line 193, ../scss/_main.scss */
+  /* line 192, ../scss/_main.scss */
   .content, header, footer {
     margin-left: auto;
     margin-right: auto;
@@ -223,38 +233,38 @@ article {
   }
 }
 @media screen and (max-width: 1050px) {
-  /* line 201, ../scss/_main.scss */
+  /* line 200, ../scss/_main.scss */
   .content, header, footer {
     width: 57%;
   }
 }
 @media screen and (max-width: 950px) {
-  /* line 207, ../scss/_main.scss */
+  /* line 206, ../scss/_main.scss */
   .content, header, footer {
     width: 68%;
   }
 }
 @media screen and (max-width: 750px) {
-  /* line 213, ../scss/_main.scss */
+  /* line 212, ../scss/_main.scss */
   .content, header, footer {
     width: 75%;
   }
 }
 @media screen and (max-width: 550px) {
-  /* line 219, ../scss/_main.scss */
+  /* line 218, ../scss/_main.scss */
   .content, header, footer {
     width: 85%;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 225, ../scss/_main.scss */
+  /* line 224, ../scss/_main.scss */
   .content, header, footer {
     width: 95%;
   }
 }
-/* Font-size change for title */
+/* Font-size change for title for small screens */
 @media screen and (max-width: 615px) {
-  /* line 234, ../scss/_main.scss */
+  /* line 233, ../scss/_main.scss */
   header h1.title {
     font-size: 2em;
   }

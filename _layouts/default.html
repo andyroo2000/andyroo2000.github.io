@@ -1,63 +1,60 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8">
 
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-        <!-- html5shiv -->
-        <!--[if lt IE 9]>
-        <script src="dist/html5shiv.js"></script>
-        <![endif]-->
-
-
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
-
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
-
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/global.css">
-
-        <!-- Javascript to import TypeKit fonts -->
-        <script type="text/javascript" src="//use.typekit.net/yed8yuc.js"></script>
-        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <!-- html5shiv -->
+    <!--[if lt IE 9]>
+    <script src="dist/html5shiv.js"></script>
+    <![endif]-->
 
 
-    </head>
-    <body>
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width">
 
-        <div class="container">
-          <div class="site">
+    <!-- syntax highlighting CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
 
-            <div id=top>
-              <header>
-                <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-                <h2 class="site-description">my adventures in code</h2>
-              </header>
-            </div>
-            <div class="content">
-                {{ content }}
-            </div>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/global.css">
 
-            <footer>
-              <div class="contact">
-                <p>
-                  Andrew Landry<br />
-                  Human Being and Coder<br />
-                  andrewlandry@gmail.com
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="https://github.com/andyroo2000">github.com/andyroo2000</a><br />
-                  <a href="https://twitter.com/androidland">twitter.com/androidland</a><br />
-                </p>
-              </div>
-            </footer>
-          </div>
-        </div> <!-- /container -->
-
-    </body>
+    <!-- Javascript to import TypeKit fonts -->
+    <script type="text/javascript" src="//use.typekit.net/yed8yuc.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="site">
+        <div id=top>
+          <header>
+            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+            <h2 class="site-description">my adventures in code</h2>
+          </header>
+        </div> <!-- top -->
+        <div class="content">
+            {{ content }}
+        </div> <!-- content -->
+        <div class="clearfooter"></div>
+      </div> <!-- site -->
+    </div> <!-- /container -->
+    <div id="bottom">
+        <footer>
+          <div class="contact">
+            <p>
+              Andrew Landry<br />
+              Human Being and Coder<br />
+              andrewlandry@gmail.com
+            </p>
+          </div> <!-- contact -->
+          <div class="contact">
+            <p>
+              <a href="https://github.com/andyroo2000">github.com/andyroo2000</a><br />
+              <a href="https://twitter.com/androidland">twitter.com/androidland</a><br />
+            </p>
+          </div> <!-- contact -->
+        </footer>
+    </div> <!-- bottom -->
+  </body>
 </html>

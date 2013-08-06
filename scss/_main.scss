@@ -1,9 +1,3 @@
-/*****************************************************************************/
-/*
-/* Common
-/*
-/*****************************************************************************/
-
 /* Global Reset */
 * {
   margin: 0;
@@ -11,6 +5,29 @@
 }
 
 html, body { height: 100%; }
+
+#bottom {
+  @include box-shadow;
+  background-color: #414844;
+  width: 100%;
+  height: 6em;
+  position: relative;
+}
+
+.content {
+  padding: 2em 0em 0em 0em;
+}
+
+.container {
+  min-height: 100%;
+  margin-bottom: -6em;
+  position: relative;
+}
+
+.clearfooter {
+  height: 6em;
+  clear: both;
+}
 
 body {
   background-color: #F0F0F0;
@@ -56,7 +73,6 @@ ul.posts span {
 .site {
   font-size: 1.2em;
   text-align: left;
-  margin: 0em auto 2em;
   line-height: 1.5em;
   color: #797167;
 }
@@ -77,10 +93,7 @@ a:hover {
 #top {
   background-color: #BA4C58;
   padding: 2em 0em 0.4em 0em;
-}
-
-header {
-
+  @include box-shadow;
 }
 
 header h1.title {
@@ -105,15 +118,12 @@ header h1.title a {
   padding: 0;
 }
 
-
-
-
 footer {
-  font-size: 80%;
-  color: #666;
-  border-top: 1px solid gray;
-  margin-top: 2em;
-  overflow: hidden;
+  color: #fff;
+  text-align: left;
+  a:link {
+    font-weight: normal;
+  } 
 }
 
 footer .contact {
@@ -121,15 +131,6 @@ footer .contact {
   margin-right: 3em;
 }
 
-footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
-  float: right;
-}
-
-footer .rss img {
-  border: 0;
-}
 
 /*****************************************************************************/
 /*
@@ -174,9 +175,7 @@ article {
   border-bottom: 1px solid gray;
 }
 
-.content {
-  padding: 2.5em 0em 0em 0em;
-}
+
 
 
 /* MEDIA QUERIES-------- */
@@ -229,7 +228,7 @@ article {
 
 
 
-/* Font-size change for title */
+/* Font-size change for title for small screens */
 @media screen and (max-width : 615px) {
   header h1.title {
     font-size: 2em;
