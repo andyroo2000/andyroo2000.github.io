@@ -1,57 +1,360 @@
-/*
-Syntax error: Invalid CSS after "}": expected selector or at-rule, was "<<<<<<< HEAD"
-        on line 254 of /Users/andrewlandry/Documents/sites/journal/scss/_main.scss
-        from line 8 of /Users/andrewlandry/Documents/sites/journal/scss/global.scss
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
 
-Backtrace:
-/Users/andrewlandry/Documents/sites/journal/scss/_main.scss:254
-/Users/andrewlandry/Documents/sites/journal/scss/global.scss:8
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/scss/parser.rb:1148:in `expected'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/scss/parser.rb:1084:in `expected'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/scss/parser.rb:28:in `parse'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/engine.rb:342:in `_to_tree'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/engine.rb:274:in `to_tree'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:225:in `visit_import'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/base.rb:53:in `map'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:109:in `visit_children'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:121:in `with_environment'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:108:in `visit_children'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:128:in `visit_root'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:7:in `send'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:7:in `visit'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/root_node.rb:20:in `render'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/engine.rb:315:in `_render'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/engine.rb:262:in `render'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/compiler.rb:140:in `compile'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/compiler.rb:126:in `timed'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/compiler.rb:139:in `compile'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/logger.rb:45:in `red'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/compiler.rb:138:in `compile'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/compiler.rb:118:in `compile_if_required'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/compiler.rb:103:in `run'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/compiler.rb:101:in `each'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/compiler.rb:101:in `run'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/compiler.rb:126:in `timed'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/compiler.rb:100:in `run'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/commands/update_project.rb:45:in `perform'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/commands/base.rb:18:in `execute'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/commands/project_base.rb:19:in `execute'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/compass:43
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/compass:57:in `call'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/compass:57
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"}\": expected selector or at-rule, was \"<<<<<<< HEAD\"\A         on line 254 of /Users/andrewlandry/Documents/sites/journal/scss/_main.scss\A         from line 8 of /Users/andrewlandry/Documents/sites/journal/scss/global.scss"; }
+/* line 22, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* Global Reset */
+/* line 2, ../scss/_main.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 7, ../scss/_main.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 9, ../scss/_main.scss */
+#bottom {
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+  background-color: #414844;
+  width: 100%;
+  height: 5em;
+  position: relative;
+  text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 2px;
+}
+
+/* line 18, ../scss/_main.scss */
+.content {
+  padding: 2em 0em 0em 0em;
+}
+
+/* line 23, ../scss/_main.scss */
+.container {
+  min-height: 100%;
+  margin-bottom: -5em;
+  position: relative;
+}
+
+/* line 29, ../scss/_main.scss */
+.clearfooter {
+  height: 5em;
+  clear: both;
+}
+
+/* line 34, ../scss/_main.scss */
+body {
+  background-color: #F0F0F0;
+  font-family: "freight-micro-pro",serif;
+  text-align: center;
+}
+
+/* line 40, ../scss/_main.scss */
+h1 {
+  margin-bottom: .5em;
+  font-style: normal;
+  font-size: 1.5em;
+}
+
+/* line 46, ../scss/_main.scss */
+p {
+  margin: 1em 0;
+}
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+/* line 54, ../scss/_main.scss */
+ul.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+/* line 59, ../scss/_main.scss */
+ul.posts li {
+  line-height: 1.75em;
+}
+
+/* line 63, ../scss/_main.scss */
+ul.posts span {
+  color: #aaa;
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 80%;
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+/* line 75, ../scss/_main.scss */
+.site {
+  font-size: 1.2em;
+  text-align: left;
+  line-height: 1.5em;
+  color: #797167;
+}
+
+/* line 82, ../scss/_main.scss */
+a {
+  color: #3888AD;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+/* line 90, ../scss/_main.scss */
+a:hover {
+  color: black;
+  background-color: #F5E498;
+}
+
+/* line 95, ../scss/_main.scss */
+#top {
+  background-color: #BA4C58;
+  padding: 2em 0em 0.4em 0em;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+}
+
+/* line 101, ../scss/_main.scss */
+h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* line 106, ../scss/_main.scss */
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* line 111, ../scss/_main.scss */
+header h1.title {
+  display: inline-block;
+  margin-bottom: 0em;
+  font-size: 3em;
+}
+
+/* line 117, ../scss/_main.scss */
+header h2.site-description {
+  font-family: "anonymous-pro",sans-serif;
+  font-size: 1em;
+  margin-bottom: 1em;
+  color: #fff;
+}
+
+/* line 124, ../scss/_main.scss */
+header h1.title a {
+  font-family: "anonymous-pro",sans-serif;
+  font-weight: bold;
+  color: #fff;
+  background-color: transparent;
+  font-style: normal;
+  padding: 0;
+}
+
+/* line 133, ../scss/_main.scss */
+footer {
+  color: #fff;
+  text-align: left;
+}
+/* line 136, ../scss/_main.scss */
+footer a:link {
+  font-weight: normal;
+}
+
+/* line 141, ../scss/_main.scss */
+footer .contact {
+  float: left;
+  margin-right: 3em;
+}
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+/* standard */
+/* line 154, ../scss/_main.scss */
+article pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
+}
+
+/* line 160, ../scss/_main.scss */
+article ul, article ol {
+  margin-left: 1.35em;
+}
+
+/* line 164, ../scss/_main.scss */
+article code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+}
+
+/* line 170, ../scss/_main.scss */
+article pre code {
+  border: none;
+}
+
+/* terminal */
+/* line 175, ../scss/_main.scss */
+article pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+/* line 181, ../scss/_main.scss */
+article pre.terminal code {
+  background-color: #333;
+}
+
+/* line 185, ../scss/_main.scss */
+article {
+  padding: 0 0 1.5em 0;
+  border-bottom: 1px solid gray;
+}
+
+/* MEDIA QUERIES-------- */
+@media screen and (min-width: 1271px) {
+  /* line 196, ../scss/_main.scss */
+  .content, header, footer {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 1270px) {
+  /* line 204, ../scss/_main.scss */
+  .content, header, footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+  }
+}
+@media screen and (max-width: 1050px) {
+  /* line 212, ../scss/_main.scss */
+  .content, header, footer {
+    width: 57%;
+  }
+}
+@media screen and (max-width: 950px) {
+  /* line 218, ../scss/_main.scss */
+  .content, header, footer {
+    width: 68%;
+  }
+}
+@media screen and (max-width: 750px) {
+  /* line 224, ../scss/_main.scss */
+  .content, header, footer {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 550px) {
+  /* line 230, ../scss/_main.scss */
+  .content, header, footer {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 236, ../scss/_main.scss */
+  .content, header, footer {
+    width: 95%;
+  }
+}
+/* Font-size change for title for small screens*/
+@media screen and (max-width: 615px) {
+  /* line 245, ../scss/_main.scss */
+  header h1.title {
+    font-size: 2em;
+  }
+
+  /* line 248, ../scss/_main.scss */
+  .contact {
+    font-size: 80%;
+  }
+}
+@media screen and (max-width: 800px) {
+  /* line 254, ../scss/_main.scss */
+  .contact {
+    font-size: 80%;
+  }
+}
