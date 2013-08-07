@@ -248,7 +248,7 @@ footer .contact {
 }
 
 /* line 150, ../scss/_main.scss */
-li:before {
+article li:before {
   content: "";
   border-color: transparent #111;
   border-style: solid;
