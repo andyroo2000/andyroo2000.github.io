@@ -4,7 +4,12 @@
   padding: 0;
 }
 
-html, body { height: 100%; }
+html, body { height: 100%;
+  }
+
+html {
+  overflow-y: scroll;
+}
 
 #bottom {
   @include box-shadow;
