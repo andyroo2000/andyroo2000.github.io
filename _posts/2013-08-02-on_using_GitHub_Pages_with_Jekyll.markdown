@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "On Using CodeKit and hosting on GitHub Pages"
+title:  "On Using CodeKit + GitHub Pages"
 date:   2013-08-02 03:34:46
 categories: musings
 ---
