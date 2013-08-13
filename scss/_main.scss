@@ -261,10 +261,6 @@ article {
 }
 
 /* Font-size change for title for small screens*/
-@media screen and (max-width : 615px) {
-  header h1.title {
-    font-size: 2em;
-  }
+@media screen and (max-width : 690px) {
+  font-size: 2em;
 }
-
-
