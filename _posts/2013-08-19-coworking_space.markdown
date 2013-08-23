@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Coworking Spaces = Best"
-date:   2013-08-12 1:34:46
+date:   2013-08-19 1:34:46
 categories: musings
 ---
 
