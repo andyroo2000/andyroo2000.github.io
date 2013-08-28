@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sticking with Vim"
-date:   2013-08-26 6:46:46
+date:   2013-08-27 6:46:46
 categories: musings
 ---
 
