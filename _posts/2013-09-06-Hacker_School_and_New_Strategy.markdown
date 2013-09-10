@@ -33,10 +33,9 @@ While I have some experience with Ruby and C (I took a college class - *la-ti-da
 
 One of the big drawbacks to choosing JavaScript as my first language seems to be that there are way better learning
 resources for those learning Ruby or Python. However, I feel that I know
-JavaScript the best at this point, so it makes sense to build on my strengths
-than to start over with something else. Also, I feel like there are already so
-many people learning Ruby and that the world really needs more people to be
-learning JavaScript. The semicolons, curly-braces, and camelCase don't scare
+JavaScript the best at this point, so it makes more sense to build on my strengths by sticking with JavaScript
+than to start over with a language that I'm less familiar with. Also, I feel like there are already so many people learning Ruby and that the world really needs more people to
+learn JavaScript. The semicolons, curly-braces, and camelCase don't scare
 me, so I might as well.
 
 After making this decision, I looked around on ye olde Google to see if anyone
