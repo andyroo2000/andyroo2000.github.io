@@ -1,4 +1,6 @@
 name: bits and beeps
+description: Andrew Landry's Coding Journal
+url: http://andyroo2000.github.io
 markdown: redcarpet
 pygments: true
 keep_files: ['.css']

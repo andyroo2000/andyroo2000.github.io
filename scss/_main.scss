@@ -11,6 +11,10 @@ html {
   overflow-y: scroll;
 }
 
+code {
+  font-family: "anonymous-pro";
+}
+
 #bottom {
   @include box-shadow;
   background-color: #414844;
