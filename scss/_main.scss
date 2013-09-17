@@ -7,8 +7,25 @@
 .icon-rss {
   color: white;
   position: absolute;
-  top: 15px;
+  top: 10px;
   right: 15px;
+  @include text-shadow(rgba(black, .5) 1px 1px 2px);
+}
+
+.icon-github-alt {
+  color: white;
+  position: absolute;
+  top: 55px;
+  right: 15px;
+  @include text-shadow(rgba(black, .5) 1px 1px 2px);
+}
+
+.icon-stackexchange {
+  color: white;
+  position: absolute;
+  top: 95px;
+  right: 15px;
+  @include text-shadow(rgba(black, .5) 1px 1px 2px);
 }
 
 html, body { height: 100%;
@@ -136,6 +153,7 @@ header h1.title {
   display: inline-block;
   margin-bottom: 0em;
   font-size: 3em;
+  @include text-shadow(rgba(black, .5) 1px 1px 2px);
 }
 
 header h2.site-description {
@@ -144,6 +162,7 @@ header h2.site-description {
   font-weight: normal;
   margin-bottom: 1em;
   color: #fff;
+  @include text-shadow(rgba(black, .5) 1px 1px 2px);
 }
 
 header h1.title a {
