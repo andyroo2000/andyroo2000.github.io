@@ -13,8 +13,8 @@ I know that it's mildly customizable, but I've never been able to get Evernote t
 
 For that matter, I'd like to edit in Vim and view the searchable and formatable results in something else. This led me to my current solution:
 
-* write notes in markdown using vim
-* push to Github
+1. write notes in markdown using vim
+2. push to Github
 
 This system has several advantages over using Evernote: 
 
