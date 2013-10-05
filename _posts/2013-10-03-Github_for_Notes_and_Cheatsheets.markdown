@@ -13,16 +13,16 @@ I know that it's mildly customizable, but I've never been able to get Evernote t
 
 For that matter, I'd like to edit in Vim and view the searchable and formatable results in something else. This led me to my current solution:
 
-1. write notes in markdown using vim
-2. push to Github
+* write notes in markdown using vim
+* push to Github
 
 This system has several advantages over using Evernote: 
 
-1. I can format my notes is a simple format that is readable by modern web-browsers. If I want to read a note, I can open it in Chrome and it will display all of my formatting. Clear formatting helps make my notes make sense when I'm scanning them later. Markdown encourages you to establish a heirarchy and there is support for code formatting.
+* I can format my notes is a simple format that is readable by modern web-browsers. If I want to read a note, I can open it in Chrome and it will display all of my formatting. Clear formatting helps make my notes make sense when I'm scanning them later. Markdown encourages you to establish a heirarchy and there is support for code formatting.
 
-2. As long as I don't mind keeping my notes in a public repository on Github, it's free.
+* As long as I don't mind keeping my notes in a public repository on Github, it's free.
 
-3. Increasing the font size is as easy as "command+".
+* Increasing the font size is as easy as "command+".
 
 The big disadvantage of not using Evernote is that my notes are much less searchable. That is not terribly important to me now, as I categorize my notes so that they are easy to find without full text search.
 
