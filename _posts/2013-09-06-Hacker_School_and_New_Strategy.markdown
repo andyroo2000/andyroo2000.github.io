@@ -46,7 +46,7 @@ No jumping around and trying to figure out what to learn
 next. There is just moving forward. And when I'm done with that, there's [Learn
 Intermediate and Advanced JavaScript](http://javascriptissexy.com/learn-intermediate-and-advanced-javascript/).
 
-So, my course is clear... I'm some time to master the fundamentals and
+So, my course is clear... I need to spend some time to master the fundamentals and
 spend as much time as possible typing, tweaking and writing code. That is
 perhaps the biggest thing I learned while working on the Hacker School' code challenge: 
 by attempting to solve this complex problem, I gained a
