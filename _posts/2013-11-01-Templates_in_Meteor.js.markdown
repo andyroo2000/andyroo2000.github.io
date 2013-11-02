@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Templates in Meteor"
-date:   2013-11-02 12:27:39
+date:   2013-11-01 12:27:39
 categories: musings
 ---
 
