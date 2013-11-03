@@ -14,25 +14,7 @@ In any case, after watching several excellent and very simple YouTube tutorials,
 
 So, for anyone else who is on their first day or two of trying out Meteor, I present the most simple example of how date from a function in the .js file is passed to the template in the .html file:
 
-#### myAwesomeApp.js
-
-```javascript
-if (Meteor.isClient) {
-  Template.connected.connection_state = function() {
-    return Meteor.status().connected ? 'connected' : 'lost';
-  };
-}
-```
-
-#### myAwesomeApp.html
-
-```html
-<template name="connected">
-  <div>
-    {{connection_state}}
-  </div>
-</template>
-```
+{% gist 7292770 %}
 
 {% gist 7292729 %}
 
