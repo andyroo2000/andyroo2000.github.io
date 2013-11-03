@@ -34,7 +34,7 @@ if (Meteor.isClient) {
 </template>
 ```
 
-{% highlight handlebars linenos %}
+{% highlight html linenos %}
 <template name="connected">
   <div>
     {{connection_state}}
