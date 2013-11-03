@@ -26,7 +26,7 @@ if (Meteor.isClient) {
 
 #### myAwesomeApp.html
 
-```handlebars
+```html
 <template name="connected">
   <div>
     {{connection_state}}
