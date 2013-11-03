@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Templates in Meteor"
-date:   2013-11-01 12:27:39
+date:   2013-11-02 21:21:17
 categories: musings
 ---
+
 
 Over the past day or two, I've been diving into [Meteor.js](http://www.meteor.com). The [docs](http://docs.meteor.com/) are actually pretty good, but I thought I'd be fancy and go through the tutorial on NetTuts and also check out the book, [Getting Started with Meteor.js](http://www.packtpub.com/getting-started-with-meteor-javascript-framework/book).
 
