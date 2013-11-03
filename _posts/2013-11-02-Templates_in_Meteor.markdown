@@ -34,6 +34,14 @@ if (Meteor.isClient) {
 </template>
 ```
 
+{% highlight handlebars linenos %}
+<template name="connected">
+  <div>
+    {{connection_state}}
+  </div>
+</template>
+{% endhighlight %}
+
 This is from an [example](http://youtu.be/HAcN3JyQoyY) by one of the creators of Meteor. This particular bit of code will check to see if the app is connected to the server and display a status message on the client.
 
 * The most important thing inside `if(Meteor.isClient) {...` is `Template`, which tells Meteor that were talking about templates.
