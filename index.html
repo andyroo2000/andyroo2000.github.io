@@ -24,7 +24,7 @@ title: Bits and Beeps
 
 
 <!-- Pagination links -->
-<div class="pagination">
+<!-- <div class="pagination">
   {% if paginator.previous_page %}
     <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
   {% else %}
@@ -36,24 +36,23 @@ title: Bits and Beeps
   {% else %}
     <span class="next ">Next</span>
   {% endif %}
-</div>
+</div> -->
 
 
-
-
-<nav id="pagination">
+  <nav id="pagination">
     {% if paginator.previous_page %}
-        {% if paginator.previous_page == 1 %}
-        <a href="/" title="Previous Page">&laquo; Previous</a>
-        {% else %}
-        <a href="/page{{paginator.previous_page }}/" title="Previous Page">&laquo; Previous</a>
-        {% endif %}
+      {% if paginator.previous_page == 1 %}
+      <a href="/" title="Previous Page">&laquo; Previous</a>
+      {% else %}
+      <a href="/page{{ paginator.previous_page }}/" title="Previous Page">&laquo; Previous</a>
+      {% endif %}
     {% endif %}
-        <span>Page: {{ paginator.page }} of {{paginator.total_pages }}</span>
-        {% if paginator.next_page %} 
+    
+    {% if paginator.next_page %} 
     <a href="/page{{ paginator.next_page }}/" title="Next Page">Next &raquo;</a>
     {% endif %} 
   </nav>
+  
 
 
 
