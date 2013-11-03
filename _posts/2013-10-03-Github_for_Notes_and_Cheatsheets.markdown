@@ -30,4 +30,4 @@ At some point, I could make a little site out of these notes and maybe add my ow
 
 I have to mention that before going down this route, I gave [Geeknote](http://geeknote.me/) a try. I think it's totally cool that someone made it, but while it allows you to edit text in Vim, at the end of the day you're left with simple text inside of Evernote which is not what I want.
 
-I just had this idea today, so it's pretty basic at the moment, but I like it already. Here are my current [notes](https://github.com/andyroo2000/notes).
+I just had this idea today, so it's pretty basic at the moment, but I like it already. Here are my current [notes](https://github.com/andyroo2000/notes_and_cheatsheets).
