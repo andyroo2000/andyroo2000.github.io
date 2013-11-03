@@ -24,6 +24,6 @@ This is from an [example](http://youtu.be/HAcN3JyQoyY) by one of the creators of
 
 * The second thing after that is "`.connected`." This tells meteor that were talking about the "`<template name="connected">`."
 
-* The thing after that is "`.connection_state`." This is kind of like an argument that we can then use to call the function inside the html template via `{\{ connection_state }\}`.
+* The thing after that is "`.connection_state`." This is kind of like an argument that we can then use to call the function inside the html template via "\{\{ connection_state \}\}".
 
 Hopefully, this helps someone else out who is just starting with Meteor and having a hard time understanding how to get data from the javascript file into the template.
