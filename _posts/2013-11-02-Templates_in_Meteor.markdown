@@ -20,10 +20,10 @@ So, for anyone else who is on their first day or two of trying out Meteor, I pre
 
 This is from an [example](http://youtu.be/HAcN3JyQoyY) by one of the creators of Meteor. This particular bit of code will check to see if the app is connected to the server and display a status message on the client.
 
-* The most important thing inside `if(Meteor.isClient) {...` is `Template`, which tells Meteor that were talking about templates.
+* The most important thing inside "`if(Meteor.isClient)`" is "`Template`", which tells Meteor that were talking about templates.
 
-* The second thing after that is `.connected`. This tells meteor that were talking about the `<template name="connected">`.
+* The second thing after that is "`.connected`." This tells meteor that were talking about the "`<template name="connected">`."
 
-* The thing after that is `.connection_state`. This is kind of like an argument that we can then use to call the function inside the html template via `{{connection_state}}`.
+* The thing after that is "`.connection_state`." This is kind of like an argument that we can then use to call the function inside the html template via "`\{\{connection_statei\}\}`."
 
 Hopefully, this helps someone else out who is just starting with Meteor and having a hard time understanding how to get data from the javascript file into the template.
