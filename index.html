@@ -44,12 +44,12 @@ title: Bits and Beeps
       {% if paginator.previous_page == 1 %}
       <a href="/" title="Previous Page">&laquo; Previous</a>
       {% else %}
-      <a href="/page{{ paginator.previous_page }}/" title="Previous Page">&laquo; {{ paginator.previous_page}} of {{ paginator.total_pages }}</a>
+      <a href="/page{{ paginator.previous_page }}/" title="Previous Page">&laquo; newer posts</a>
       {% endif %}
     {% endif %}
     
     {% if paginator.next_page %} 
-    <a href="/page{{ paginator.next_page }}/" title="Next Page">{{ paginator.next_page}} of {{ paginator.total_pages }}&raquo;</a>
+    <a href="/page{{ paginator.next_page }}/" title="Next Page">older posts</a>
     {% endif %} 
   </nav>
 

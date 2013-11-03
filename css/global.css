@@ -211,7 +211,7 @@ ul.posts span {
 }
 
 /* line 119, ../scss/_main.scss */
-#pagination {
+#pagination a {
   font-size: 1em;
   padding: 2em;
 }
