@@ -34,13 +34,7 @@ if (Meteor.isClient) {
 </template>
 ```
 
-{% highlight html linenos %}
-<template name="connected">
-  <div>
-    {{connection_state}}
-  </div>
-</template>
-{% endhighlight %}
+{% gist 7292729 %}
 
 This is from an [example](http://youtu.be/HAcN3JyQoyY) by one of the creators of Meteor. This particular bit of code will check to see if the app is connected to the server and display a status message on the client.
 
