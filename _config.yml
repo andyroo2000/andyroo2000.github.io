@@ -4,3 +4,4 @@ url: http://andyroo2000.github.io
 markdown: redcarpet
 pygments: true
 keep_files: ['.css']
+paginate: 10

@@ -28,4 +28,3 @@ color_output = false
 # sass-convert -R --from scss --to sass scss scss && rm -rf sass && mv scss sass
 preferred_syntax = :scss
 
-pygments = true
