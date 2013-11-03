@@ -213,7 +213,8 @@ ul.posts span {
 /* line 119, ../scss/_main.scss */
 #pagination a {
   font-size: 1em;
-  padding: 1.5em;
+  padding: 1em;
+  margin: 0.5em;
   border: dashed;
 }
 
@@ -222,7 +223,7 @@ ul.posts span {
 /* Site
 /*
 /*****************************************************************************/
-/* line 131, ../scss/_main.scss */
+/* line 132, ../scss/_main.scss */
 .site {
   font-size: 1.2em;
   text-align: left;
@@ -230,7 +231,7 @@ ul.posts span {
   color: #797167;
 }
 
-/* line 138, ../scss/_main.scss */
+/* line 139, ../scss/_main.scss */
 a {
   color: #3888AD;
   text-decoration: none;
@@ -242,13 +243,13 @@ a {
   transition-duration: 0.4s;
 }
 
-/* line 146, ../scss/_main.scss */
+/* line 147, ../scss/_main.scss */
 a:hover {
   color: black;
   background-color: #F5E498;
 }
 
-/* line 151, ../scss/_main.scss */
+/* line 152, ../scss/_main.scss */
 #top {
   background-color: #BA4C58;
   padding: 2.5em 0em 0.4em 0em;
@@ -257,19 +258,19 @@ a:hover {
   box-shadow: 0px 0px 5px #333333;
 }
 
-/* line 157, ../scss/_main.scss */
+/* line 158, ../scss/_main.scss */
 h1 {
   font-size: 1.5em;
   font-weight: bold;
 }
 
-/* line 162, ../scss/_main.scss */
+/* line 163, ../scss/_main.scss */
 h2 {
   font-size: 1.5em;
   font-weight: bold;
 }
 
-/* line 167, ../scss/_main.scss */
+/* line 168, ../scss/_main.scss */
 header h1.title {
   display: inline-block;
   margin-bottom: 0em;
@@ -277,7 +278,7 @@ header h1.title {
   text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 2px;
 }
 
-/* line 174, ../scss/_main.scss */
+/* line 175, ../scss/_main.scss */
 header h2.site-description {
   font-family: "anonymous-pro",sans-serif;
   font-size: 1em;
@@ -287,7 +288,7 @@ header h2.site-description {
   text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 2px;
 }
 
-/* line 183, ../scss/_main.scss */
+/* line 184, ../scss/_main.scss */
 header h1.title a {
   font-family: "anonymous-pro",sans-serif;
   font-weight: bold;
@@ -297,22 +298,22 @@ header h1.title a {
   padding: 0;
 }
 
-/* line 192, ../scss/_main.scss */
+/* line 193, ../scss/_main.scss */
 header h1.title a:hover {
   text-shadow: rgba(0, 0, 0, 0.6) 1px 1px 8px;
 }
 
-/* line 196, ../scss/_main.scss */
+/* line 197, ../scss/_main.scss */
 footer {
   color: #fff;
   text-align: left;
 }
-/* line 199, ../scss/_main.scss */
+/* line 200, ../scss/_main.scss */
 footer a:link {
   font-weight: normal;
 }
 
-/* line 204, ../scss/_main.scss */
+/* line 205, ../scss/_main.scss */
 footer .contact {
   float: left;
   margin-right: 3em;
@@ -321,13 +322,13 @@ footer .contact {
   padding: 0.2em 0em 0em 0em;
 }
 
-/* line 212, ../scss/_main.scss */
+/* line 213, ../scss/_main.scss */
 li {
   list-style-type: circle;
   margin-left: 1em;
 }
 
-/* line 217, ../scss/_main.scss */
+/* line 218, ../scss/_main.scss */
 ul {
   margin-left: 0;
   padding-left: 0;
@@ -339,44 +340,44 @@ ul {
 /*
 /*****************************************************************************/
 /* standard */
-/* line 230, ../scss/_main.scss */
+/* line 231, ../scss/_main.scss */
 article pre {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .4em;
 }
 
-/* line 236, ../scss/_main.scss */
+/* line 237, ../scss/_main.scss */
 article ul, article ol {
   margin-left: 1.35em;
 }
 
-/* line 240, ../scss/_main.scss */
+/* line 241, ../scss/_main.scss */
 article code {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .2em;
 }
 
-/* line 246, ../scss/_main.scss */
+/* line 247, ../scss/_main.scss */
 article pre code {
   border: none;
 }
 
 /* terminal */
-/* line 251, ../scss/_main.scss */
+/* line 252, ../scss/_main.scss */
 article pre.terminal {
   border: 1px solid #000;
   background-color: #333;
   color: #FFF;
 }
 
-/* line 257, ../scss/_main.scss */
+/* line 258, ../scss/_main.scss */
 article pre.terminal code {
   background-color: #333;
 }
 
-/* line 261, ../scss/_main.scss */
+/* line 262, ../scss/_main.scss */
 article {
   padding: 0 0 1.5em 0;
   border-bottom: 1px solid gray;
@@ -384,7 +385,7 @@ article {
 
 /* MEDIA QUERIES-------- */
 @media screen and (min-width: 1271px) {
-  /* line 272, ../scss/_main.scss */
+  /* line 273, ../scss/_main.scss */
   .content, header, footer {
     width: 40%;
     margin-left: auto;
@@ -392,7 +393,7 @@ article {
   }
 }
 @media screen and (max-width: 1270px) {
-  /* line 280, ../scss/_main.scss */
+  /* line 281, ../scss/_main.scss */
   .content, header, footer {
     margin-left: auto;
     margin-right: auto;
@@ -400,38 +401,38 @@ article {
   }
 }
 @media screen and (max-width: 1050px) {
-  /* line 288, ../scss/_main.scss */
+  /* line 289, ../scss/_main.scss */
   .content, header, footer {
     width: 57%;
   }
 }
 @media screen and (max-width: 950px) {
-  /* line 294, ../scss/_main.scss */
+  /* line 295, ../scss/_main.scss */
   .content, header, footer {
     width: 68%;
   }
 }
 @media screen and (max-width: 750px) {
-  /* line 300, ../scss/_main.scss */
+  /* line 301, ../scss/_main.scss */
   .content, header, footer {
     width: 75%;
   }
 }
 @media screen and (max-width: 550px) {
-  /* line 306, ../scss/_main.scss */
+  /* line 307, ../scss/_main.scss */
   .content, header, footer {
     width: 85%;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 312, ../scss/_main.scss */
+  /* line 313, ../scss/_main.scss */
   .content, header, footer {
     width: 95%;
   }
 }
 /* Font-size change for title for small screens*/
 @media screen and (max-width: 690px) {
-  /* line 319, ../scss/_main.scss */
+  /* line 320, ../scss/_main.scss */
   header h1.title {
     font-size: 2em;
   }
