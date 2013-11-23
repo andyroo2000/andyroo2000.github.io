@@ -12,7 +12,7 @@ Nothing against either of those resources, but I felt that I had skipped over so
 
 In any case, after watching several excellent and very simple YouTube tutorials, everything began to make sense. The problem with many of the tutorials I was using was that they used *identical* or *very similar* variable names, function names, and template names, so I could see that everything was working, but I really couldn't understand how the data was flowing. (Again, this is largely due to my lack of experience with Handlebars or Jade)...
 
-So, for anyone else who is on their first day or two of trying out Meteor, I present the most simple example of how date from a function in the .js file is passed to the template in the .html file:
+So, for anyone else who is on their first day or two of trying out Meteor, I present the most simple example of how data from a function in the .js file is passed to the template in the .html file:
 
 {% gist 7292770 %}
 
