@@ -99,10 +99,7 @@ Now your empty repository exist on GitHub. In order to tell your local computer 
 
 The code will look something like the following, but will be customized for your username and the name of your repository:
 
-```bash
-git remote add origin https://github.com/andyroo2000/example.git
-git push -u origin master
-```
+<script src="https://gist.github.com/andyroo2000/ffa3dac05e44d26423ce.js"></script>
 
 You want to copy each line one at a time, paste it into the terminal (making sure your are inside your project folder) and hit the enter key.
 
