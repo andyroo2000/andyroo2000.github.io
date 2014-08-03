@@ -1,7 +1,7 @@
-name: bits and beeps
-description: Andrew Landry's Coding Journal
+name: Learn You Code
+description: Some resources for those trying to bridge the gap between Codecademy and a career in coding.
 url: http://andyroo2000.github.io
 markdown: redcarpet
 pygments: true
 keep_files: ['.css']
-paginate: 5
+paginate: 100

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Bits and Beeps
+title: Learn You Code
 ---
 
 <div id="home">
@@ -13,13 +13,8 @@ title: Bits and Beeps
 
      <!-- This loops through the paginated posts -->
   {% for post in paginator.posts %}
-    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-    <p class="author">
-      <span class="date">{{ post.date | date_to_string }}</span>
-    </p>
-    <div class="the_post">
-      {{ post.content }}
-    </div>
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+
   {% endfor %}
 
 

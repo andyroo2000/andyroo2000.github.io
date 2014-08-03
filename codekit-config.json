@@ -1,24 +1,15 @@
 {
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
-  "creatorBuild" : "8376",
+  "creatorBuild" : "8403",
   "files" : {
-    "\/_layouts\/post.html" : {
+    "\/config.rb" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_layouts\/post.html",
+      "inputAbbreviatedPath" : "\/config.rb",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_layouts\/default.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_layouts\/default.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "fileType" : 32768
     },
     "\/scss\/global.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -32,14 +23,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/config.rb" : {
+    "\/_layouts\/default.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/config.rb",
+      "inputAbbreviatedPath" : "\/_layouts\/default.html",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 32768
+      "fileType" : 2048
     },
     "\/css\/syntax.css" : {
       "ignoreWasSetByUser" : 0,
@@ -47,6 +38,24 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/syntax.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/_layouts\/post.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_layouts\/post.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/css\/global.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/global.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
