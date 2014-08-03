@@ -18,9 +18,10 @@ code {
 
 #bottom {
   @include box-shadow;
-  background-color: #414844;
+  // background-color: #414844;
+  background-color: #222;
   width: 100%;
-  height: 8em;
+  height: 7em;
   position: relative;
   @include text-shadow(rgba(black, .5) 1px 1px 2px);
 }
@@ -32,7 +33,7 @@ code {
 
 .container {
   min-height: 100%;
-  margin-bottom: -8em;
+  margin-bottom: -7em;
   position: relative;
 }
 
@@ -111,20 +112,24 @@ ul.posts span {
 }
 
 a {
-  color: #3888AD;
+  // color: #3888AD;
+  color: #5CA941;
   text-decoration: none;
   font-weight: bold;
   font-style: italic;
+  background-color: #FFF;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
   // @include transition-duration(.4s);
 }
 
 a:hover {
   color: black;
-  background-color: #F5E498;
+  // background-color: #F5E498;
 }
 
 #top {
-  background-color: #BA4C58;
+  background-color: #6C98FB;
   padding: 2.5em 0em 0.4em 0em;
   @include box-shadow;
 }
@@ -141,6 +146,7 @@ h2 {
 
 .article-link {
   padding: 0.3em;
+  margin-bottom: 3px;
 }
 
 h2.article-link a {
@@ -185,6 +191,7 @@ footer {
   text-align: left;
   a:link {
     font-weight: normal;
+    margin-bottom: 3px;
   } 
 }
 
@@ -199,6 +206,9 @@ footer .contact {
 .contact a {
   padding: 0.1em 0.3em 0.1em 0.3em;
   margin-left: -0.2em;
+  margin-top: 5px;
+  background-color: #666;
+  color: #FFF;
 }
 
 li { 
