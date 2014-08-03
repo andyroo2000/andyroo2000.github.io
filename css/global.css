@@ -75,55 +75,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 7, ../scss/_main.scss */
-.icons a:hover {
-  text-shadow: rgba(0, 0, 0, 0.6) 1px 1px 26px;
-}
-
-/* line 11, ../scss/_main.scss */
-.icons {
-  text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 2px;
-}
-
-/* line 15, ../scss/_main.scss */
-.icon-rss {
-  color: white;
-  position: absolute;
-  top: 10px;
-  right: 15px;
-}
-
-/* line 22, ../scss/_main.scss */
-.icon-github-alt {
-  color: white;
-  position: absolute;
-  top: 55px;
-  right: 15px;
-}
-
-/* line 29, ../scss/_main.scss */
-.icon-stackexchange {
-  color: white;
-  position: absolute;
-  top: 95px;
-  right: 15px;
-}
-
-/* line 36, ../scss/_main.scss */
 html, body {
   height: 100%;
 }
 
-/* line 39, ../scss/_main.scss */
+/* line 10, ../scss/_main.scss */
 html {
   overflow-y: scroll;
 }
 
-/* line 43, ../scss/_main.scss */
+/* line 14, ../scss/_main.scss */
 code {
-  font-family: "anonymous-pro";
+  font-family: "font-family: " source-code-pro ",sans-serif";
+  font-size: 0.8em;
 }
 
-/* line 47, ../scss/_main.scss */
+/* line 19, ../scss/_main.scss */
 #bottom {
   -webkit-box-shadow: 0px 0px 5px #333333;
   -moz-box-shadow: 0px 0px 5px #333333;
@@ -135,49 +102,49 @@ code {
   text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 2px;
 }
 
-/* line 56, ../scss/_main.scss */
+/* line 28, ../scss/_main.scss */
 .content {
   padding: 2em 0em 0em 0em;
 }
 
-/* line 61, ../scss/_main.scss */
+/* line 33, ../scss/_main.scss */
 .container {
   min-height: 100%;
   margin-bottom: -8em;
   position: relative;
 }
 
-/* line 67, ../scss/_main.scss */
+/* line 39, ../scss/_main.scss */
 .clearfooter {
   height: 8em;
   clear: both;
 }
 
-/* line 72, ../scss/_main.scss */
+/* line 44, ../scss/_main.scss */
 body {
   background-color: #F0F0F0;
-  font-family: "freight-micro-pro",serif;
+  font-family: "font-family: " proxima-nova ",sans-serif";
   text-align: center;
 }
 
-/* line 78, ../scss/_main.scss */
+/* line 50, ../scss/_main.scss */
 h1 {
   margin-bottom: .5em;
   font-style: normal;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
-/* line 84, ../scss/_main.scss */
+/* line 56, ../scss/_main.scss */
 p {
   margin: 1em 0;
 }
 
-/* line 86, ../scss/_main.scss */
+/* line 58, ../scss/_main.scss */
 em {
   font-style: italic;
 }
 
-/* line 90, ../scss/_main.scss */
+/* line 62, ../scss/_main.scss */
 strong {
   font-weight: bold;
 }
@@ -187,30 +154,30 @@ strong {
 /* Home
 /*
 /*****************************************************************************/
-/* line 100, ../scss/_main.scss */
+/* line 72, ../scss/_main.scss */
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
 }
 
-/* line 105, ../scss/_main.scss */
+/* line 77, ../scss/_main.scss */
 ul.posts li {
   line-height: 1.75em;
 }
 
-/* line 109, ../scss/_main.scss */
+/* line 81, ../scss/_main.scss */
 ul.posts span {
   color: #aaa;
   font-family: Monaco, "Courier New", monospace;
   font-size: 80%;
 }
 
-/* line 115, ../scss/_main.scss */
+/* line 87, ../scss/_main.scss */
 .the_post {
   padding-bottom: 3em;
 }
 
-/* line 119, ../scss/_main.scss */
+/* line 91, ../scss/_main.scss */
 #pagination a {
   font-size: 1em;
   padding: 1em;
@@ -223,7 +190,7 @@ ul.posts span {
 /* Site
 /*
 /*****************************************************************************/
-/* line 134, ../scss/_main.scss */
+/* line 106, ../scss/_main.scss */
 .site {
   font-size: 1.2em;
   text-align: left;
@@ -231,7 +198,7 @@ ul.posts span {
   color: #797167;
 }
 
-/* line 141, ../scss/_main.scss */
+/* line 113, ../scss/_main.scss */
 a {
   color: #3888AD;
   text-decoration: none;
@@ -243,13 +210,13 @@ a {
   transition-duration: 0.4s;
 }
 
-/* line 149, ../scss/_main.scss */
+/* line 121, ../scss/_main.scss */
 a:hover {
   color: black;
   background-color: #F5E498;
 }
 
-/* line 154, ../scss/_main.scss */
+/* line 126, ../scss/_main.scss */
 #top {
   background-color: #BA4C58;
   padding: 2.5em 0em 0.4em 0em;
@@ -258,19 +225,35 @@ a:hover {
   box-shadow: 0px 0px 5px #333333;
 }
 
-/* line 160, ../scss/_main.scss */
+/* line 132, ../scss/_main.scss */
 h1 {
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: bold;
 }
 
-/* line 165, ../scss/_main.scss */
+/* line 137, ../scss/_main.scss */
 h2 {
   font-size: 1.5em;
   font-weight: bold;
 }
 
-/* line 170, ../scss/_main.scss */
+/* line 142, ../scss/_main.scss */
+.article-link {
+  padding: 0.3em;
+}
+
+/* line 146, ../scss/_main.scss */
+h2.article-link a {
+  padding: 0.15em 0.3em 0.15em 0.4em;
+  margin-left: -0.3em;
+}
+
+/* line 151, ../scss/_main.scss */
+h2.article-link a:hover {
+  background-color: #F5E498;
+}
+
+/* line 155, ../scss/_main.scss */
 header h1.title {
   display: inline-block;
   margin-bottom: 0em;
@@ -278,17 +261,16 @@ header h1.title {
   text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 2px;
 }
 
-/* line 177, ../scss/_main.scss */
+/* line 162, ../scss/_main.scss */
 header h2.site-description {
-  font-family: "anonymous-pro",sans-serif;
-  font-size: 1em;
+  font-size: 0.8em;
   font-weight: normal;
   margin-bottom: 1em;
   color: #fff;
   text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 2px;
 }
 
-/* line 186, ../scss/_main.scss */
+/* line 170, ../scss/_main.scss */
 header h1.title a {
   font-family: "anonymous-pro",sans-serif;
   font-weight: bold;
@@ -298,22 +280,22 @@ header h1.title a {
   padding: 0;
 }
 
-/* line 195, ../scss/_main.scss */
+/* line 179, ../scss/_main.scss */
 header h1.title a:hover {
   text-shadow: rgba(0, 0, 0, 0.6) 1px 1px 8px;
 }
 
-/* line 199, ../scss/_main.scss */
+/* line 183, ../scss/_main.scss */
 footer {
   color: #fff;
   text-align: left;
 }
-/* line 202, ../scss/_main.scss */
+/* line 186, ../scss/_main.scss */
 footer a:link {
   font-weight: normal;
 }
 
-/* line 207, ../scss/_main.scss */
+/* line 191, ../scss/_main.scss */
 footer .contact {
   float: left;
   margin-right: 3em;
@@ -322,13 +304,19 @@ footer .contact {
   padding: 0.2em 0em 0em 0em;
 }
 
-/* line 215, ../scss/_main.scss */
+/* line 199, ../scss/_main.scss */
+.contact a {
+  padding: 0.1em 0.3em 0.1em 0.3em;
+  margin-left: -0.2em;
+}
+
+/* line 204, ../scss/_main.scss */
 li {
   list-style-type: circle;
   margin-left: 1em;
 }
 
-/* line 220, ../scss/_main.scss */
+/* line 209, ../scss/_main.scss */
 ul {
   margin-left: 0;
   padding-left: 0;
@@ -340,44 +328,44 @@ ul {
 /*
 /*****************************************************************************/
 /* standard */
-/* line 233, ../scss/_main.scss */
+/* line 222, ../scss/_main.scss */
 article pre {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .4em;
 }
 
-/* line 239, ../scss/_main.scss */
+/* line 228, ../scss/_main.scss */
 article ul, article ol {
   margin-left: 1.35em;
 }
 
-/* line 243, ../scss/_main.scss */
+/* line 232, ../scss/_main.scss */
 article code {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .2em;
 }
 
-/* line 249, ../scss/_main.scss */
+/* line 238, ../scss/_main.scss */
 article pre code {
   border: none;
 }
 
 /* terminal */
-/* line 254, ../scss/_main.scss */
+/* line 243, ../scss/_main.scss */
 article pre.terminal {
   border: 1px solid #000;
   background-color: #333;
   color: #FFF;
 }
 
-/* line 260, ../scss/_main.scss */
+/* line 249, ../scss/_main.scss */
 article pre.terminal code {
   background-color: #333;
 }
 
-/* line 264, ../scss/_main.scss */
+/* line 253, ../scss/_main.scss */
 article {
   padding: 0 0 1.5em 0;
   border-bottom: 1px solid gray;
@@ -385,7 +373,7 @@ article {
 
 /* MEDIA QUERIES-------- */
 @media screen and (min-width: 1271px) {
-  /* line 275, ../scss/_main.scss */
+  /* line 264, ../scss/_main.scss */
   .content, header, footer {
     width: 40%;
     margin-left: auto;
@@ -393,7 +381,7 @@ article {
   }
 }
 @media screen and (max-width: 1270px) {
-  /* line 283, ../scss/_main.scss */
+  /* line 272, ../scss/_main.scss */
   .content, header, footer {
     margin-left: auto;
     margin-right: auto;
@@ -401,38 +389,38 @@ article {
   }
 }
 @media screen and (max-width: 1050px) {
-  /* line 291, ../scss/_main.scss */
+  /* line 280, ../scss/_main.scss */
   .content, header, footer {
     width: 57%;
   }
 }
 @media screen and (max-width: 950px) {
-  /* line 297, ../scss/_main.scss */
+  /* line 286, ../scss/_main.scss */
   .content, header, footer {
     width: 68%;
   }
 }
 @media screen and (max-width: 750px) {
-  /* line 303, ../scss/_main.scss */
+  /* line 292, ../scss/_main.scss */
   .content, header, footer {
     width: 75%;
   }
 }
 @media screen and (max-width: 550px) {
-  /* line 309, ../scss/_main.scss */
+  /* line 298, ../scss/_main.scss */
   .content, header, footer {
     width: 85%;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 315, ../scss/_main.scss */
+  /* line 304, ../scss/_main.scss */
   .content, header, footer {
     width: 95%;
   }
 }
 /* Font-size change for title for small screens*/
 @media screen and (max-width: 690px) {
-  /* line 322, ../scss/_main.scss */
+  /* line 311, ../scss/_main.scss */
   header h1.title {
     font-size: 2em;
   }

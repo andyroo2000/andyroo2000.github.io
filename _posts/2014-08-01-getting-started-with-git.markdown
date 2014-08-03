@@ -5,8 +5,6 @@ date:   2014-08-01 21:32:46
 categories: musings
 ---
 
-# Get Ready to Control Your Source Code With Git
-
 The next thing you should install on your computer is [Git](http://git-scm.com).
 
 The installation process will be different, depending on whether you are on a Mac, Linux or a PC. In any case, there are many GUI versions of Git that make using Git much easier to use for beginners. Unfortunately, we will not be using those. I am going to ask that you use the command line version of Git. On Windows, this will be in an application called Git Shell or something similar.

@@ -4,35 +4,6 @@
   padding: 0;
 }
 
-.icons a:hover {
-  @include text-shadow(rgba(black, .6) 1px 1px 26px);
-}
-
-.icons {
-  @include text-shadow(rgba(black, .5) 1px 1px 2px);  
-}
-
-.icon-rss {
-  color: white;
-  position: absolute;
-  top: 10px;
-  right: 15px;
-}
-
-.icon-github-alt {
-  color: white;
-  position: absolute;
-  top: 55px;
-  right: 15px;
-}
-
-.icon-stackexchange {
-  color: white;
-  position: absolute;
-  top: 95px;
-  right: 15px;
-}
-
 html, body { height: 100%;
   }
 
@@ -41,7 +12,8 @@ html {
 }
 
 code {
-  font-family: "anonymous-pro";
+  font-family: "font-family: "source-code-pro",sans-serif";
+  font-size: 0.8em;
 }
 
 #bottom {
@@ -71,14 +43,14 @@ code {
 
 body {
   background-color: #F0F0F0;
-  font-family: "freight-micro-pro",serif;
+  font-family: "font-family: "proxima-nova",sans-serif";
   text-align: center;
 }
 
 h1 { 
   margin-bottom: .5em;
   font-style: normal;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 p { margin: 1em 0; }
@@ -158,13 +130,26 @@ a:hover {
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: bold;
 }
 
 h2 {
   font-size: 1.5em;
   font-weight: bold;
+}
+
+.article-link {
+  padding: 0.3em;
+}
+
+h2.article-link a {
+  padding: 0.15em 0.3em 0.15em 0.4em;
+  margin-left: -0.3em;
+}
+
+h2.article-link a:hover {
+  background-color: #F5E498;
 }
 
 header h1.title {
@@ -175,8 +160,7 @@ header h1.title {
 }
 
 header h2.site-description {
-  font-family: "anonymous-pro",sans-serif;
-  font-size: 1em;
+  font-size: 0.8em;
   font-weight: normal;
   margin-bottom: 1em;
   color: #fff;
@@ -210,6 +194,11 @@ footer .contact {
   font-size: 1.2em;
   line-height: 1.5em;
   padding: 0.2em 0em 0em 0em;
+}
+
+.contact a {
+  padding: 0.1em 0.3em 0.1em 0.3em;
+  margin-left: -0.2em;
 }
 
 li { 
