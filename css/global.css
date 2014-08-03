@@ -204,10 +204,6 @@ a {
   text-decoration: none;
   font-weight: bold;
   font-style: italic;
-  -webkit-transition-duration: 0.4s;
-  -moz-transition-duration: 0.4s;
-  -o-transition-duration: 0.4s;
-  transition-duration: 0.4s;
 }
 
 /* line 121, ../scss/_main.scss */
@@ -258,7 +254,7 @@ header h1.title {
   display: inline-block;
   margin-bottom: 0em;
   font-size: 3em;
-  text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 2px;
+  text-shadow: rgba(0, 0, 0, 0.2) 1px 1px 2px;
 }
 
 /* line 162, ../scss/_main.scss */

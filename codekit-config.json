@@ -2,15 +2,6 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8403",
   "files" : {
-    "\/css\/syntax.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/syntax.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/_site\/css\/syntax.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -28,6 +19,15 @@
       "inputAbbreviatedPath" : "\/_site\/musings\/2014\/08\/01\/what-is-this.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/css\/syntax.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/syntax.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/_site\/musings\/2014\/08\/01\/getting-started-with-git.html" : {
       "ignoreWasSetByUser" : 0,
@@ -56,15 +56,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/_site\/learnyoucode\/sublime\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/learnyoucode\/sublime\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/scss\/global.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -76,6 +67,15 @@
       "outputAbbreviatedPath" : "\/css\/global.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/_site\/learnyoucode\/sublime\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/learnyoucode\/sublime\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/_site\/scss\/pygment_trac.scss" : {
       "ignoreWasSetByUser" : 0,

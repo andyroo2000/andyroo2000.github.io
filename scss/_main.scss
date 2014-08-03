@@ -115,7 +115,7 @@ a {
   text-decoration: none;
   font-weight: bold;
   font-style: italic;
-  @include transition-duration(.4s);
+  // @include transition-duration(.4s);
 }
 
 a:hover {
@@ -156,7 +156,7 @@ header h1.title {
   display: inline-block;
   margin-bottom: 0em;
   font-size: 3em;
-  @include text-shadow(rgba(black, .5) 1px 1px 2px);
+  @include text-shadow(rgba(black, .2) 1px 1px 2px);
 }
 
 header h2.site-description {
