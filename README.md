@@ -1,13 +1,7 @@
-andyroo2000.github.io
-=====================
+# Learn You Code!
 
-# My Jekyll Blog
+This is a list of resources and a general guide for those just starting out with web development.
 
-This is a blog I created using Jekyll, which is hosted at http://andyroo2000.github.io
+It was created with [Jekyll](http://jekyllrb.com) and is hosted with [GitHub Pages](http://jekyllrb.com/docs/github-pages). [Sass](http://sass-lang.com) is used for CSS pre-processing.
 
-It was largely an experiment, using Jekyll and using Sass (SCSS) to style it, as the default styling is... minimal.
-
-I have since moved my blog to: http://andrew-landry.com and I'm using the Ghost blogging engine to power it and hosting it on a Digital Ocean droplet.
-
-However, Jekyll is a pretty good command-line app for blogging, and I really do like being able to edit my posts in Vim.
-
+You can see it live at: [learnyoucode.com](http://learnyoucode.com)
