@@ -62,26 +62,20 @@ In your Terminal (a.k.a shell), navigate to the folder containing your project. 
 
 `cd` into your project folder and type the following:
 
-```bash
-git init
-```
+<script src="https://gist.github.com/andyroo2000/009e1e280a045f252268.js"></script>
 
 This initializes the Git repository. This tells Git that we want to track all of the files inside this folder.
 
 These instructions will only work if you have at least one file in the directory. If you don't have a single file, none of this will work and you will need to create a file before continuing. If you would like to, now might be a good time to create a `README.md` file for your project. This is a 
 
 
-```bash
-git add .
-```
+<script src="https://gist.github.com/andyroo2000/d6fda293a73b29e0321d.js"></script>
 
 This adds all of the files inside the folder to **staging area**. This means that when you type `commit` in the next step, you will be committing the files you added to the staging area right now. The reason this adds all of the files is that `.` is a special symbol in Linux that refers to the present directory. You could have also added a single file by typing something like `git add myFile.txt`. But right now, we want to add **all** files in the current directory, so we're going to stick with the `.`
 
 (*Sidenote: The `.` symbol is prounounced "dot"*)
 
-```bash
-git commit -am "initial commit"
-```
+<script src="https://gist.github.com/andyroo2000/c0183ae3f7debf4c942f.js"></script>
 
 This commits your staged files and adds a commit message (in this case, that message is 'initial commit'). 
 
@@ -115,21 +109,15 @@ That would be a good time to commit your local changes using Git and then push t
 
 `cd` into your project folder and type the following:
 
-```bash
-git add .
-```
+<script src="https://gist.github.com/andyroo2000/d6fda293a73b29e0321d.js"></script>
 
 Again, this will add the files in the current directory to the staging area.
 
-```bash
-git commit -am "create about page"
-```
+<script src="https://gist.github.com/andyroo2000/7bf79a0122cc27809155.js"></script>
 
 This commits our changes with a descriptive commit message. This can be whatever you want, but it is a good practice to make it concise, descriptive, and in the present-tense (i.e. *create* instead of *created*).
 
-```bash
-git push
-```
+<script src="https://gist.github.com/andyroo2000/c4b3964476fa53728a33.js"></script>
 
 Since we defined our GitHub repository as the remote repository when we created it in our **First workflow with Github**, typing `git push` will push the code to GitHub.
 
