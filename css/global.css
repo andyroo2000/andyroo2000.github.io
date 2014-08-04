@@ -325,50 +325,55 @@ ul {
   padding-left: 0;
 }
 
+/* line 224, ../scss/_main.scss */
+.gist {
+  width: 98%;
+}
+
 /*****************************************************************************/
 /*
 /* Posts
 /*
 /*****************************************************************************/
 /* standard */
-/* line 232, ../scss/_main.scss */
+/* line 236, ../scss/_main.scss */
 article pre {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .4em;
 }
 
-/* line 238, ../scss/_main.scss */
+/* line 242, ../scss/_main.scss */
 article ul, article ol {
   margin-left: 1.35em;
 }
 
-/* line 242, ../scss/_main.scss */
+/* line 246, ../scss/_main.scss */
 article code {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .2em;
 }
 
-/* line 248, ../scss/_main.scss */
+/* line 252, ../scss/_main.scss */
 article pre code {
   border: none;
 }
 
 /* terminal */
-/* line 253, ../scss/_main.scss */
+/* line 257, ../scss/_main.scss */
 article pre.terminal {
   border: 1px solid #000;
   background-color: #333;
   color: #FFF;
 }
 
-/* line 259, ../scss/_main.scss */
+/* line 263, ../scss/_main.scss */
 article pre.terminal code {
   background-color: #333;
 }
 
-/* line 263, ../scss/_main.scss */
+/* line 267, ../scss/_main.scss */
 article {
   padding: 0 0 1.5em 0;
   border-bottom: 1px solid gray;
@@ -376,7 +381,7 @@ article {
 
 /* MEDIA QUERIES-------- */
 @media screen and (min-width: 1271px) {
-  /* line 274, ../scss/_main.scss */
+  /* line 278, ../scss/_main.scss */
   .content, header, footer {
     width: 40%;
     margin-left: auto;
@@ -384,7 +389,7 @@ article {
   }
 }
 @media screen and (max-width: 1270px) {
-  /* line 282, ../scss/_main.scss */
+  /* line 286, ../scss/_main.scss */
   .content, header, footer {
     margin-left: auto;
     margin-right: auto;
@@ -392,38 +397,38 @@ article {
   }
 }
 @media screen and (max-width: 1050px) {
-  /* line 290, ../scss/_main.scss */
+  /* line 294, ../scss/_main.scss */
   .content, header, footer {
     width: 57%;
   }
 }
 @media screen and (max-width: 950px) {
-  /* line 296, ../scss/_main.scss */
+  /* line 300, ../scss/_main.scss */
   .content, header, footer {
     width: 68%;
   }
 }
 @media screen and (max-width: 750px) {
-  /* line 302, ../scss/_main.scss */
+  /* line 306, ../scss/_main.scss */
   .content, header, footer {
     width: 75%;
   }
 }
 @media screen and (max-width: 550px) {
-  /* line 308, ../scss/_main.scss */
+  /* line 312, ../scss/_main.scss */
   .content, header, footer {
     width: 85%;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 314, ../scss/_main.scss */
+  /* line 318, ../scss/_main.scss */
   .content, header, footer {
     width: 95%;
   }
 }
 /* Font-size change for title for small screens*/
 @media screen and (max-width: 690px) {
-  /* line 321, ../scss/_main.scss */
+  /* line 325, ../scss/_main.scss */
   header h1.title {
     font-size: 2em;
   }
