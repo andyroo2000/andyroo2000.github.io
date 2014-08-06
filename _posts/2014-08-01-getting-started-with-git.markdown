@@ -122,4 +122,10 @@ This commits our changes with a descriptive commit message. This can be whatever
 Since we defined our GitHub repository as the remote repository when we created it in our **First workflow with Github**, typing `git push` will push the code to GitHub.
 
 
+---
 
+# Resources
+
+- [Try Git](https://www.codeschool.com/courses/try-git) - a CodeSchool course. You can take the course by signing up for a free CodeSchool account.
+- [Git Real](https://www.codeschool.com/courses/git-real) - the sequel to the course and there's also [Git Real 2](https://www.codeschool.com/courses/git-real-2)
+- [Learn Version Control with Git](http://www.git-tower.com/learn/ebook/command-line/introduction) - a comprehensive written introduction to Git. You can download it as a free .PDF and read it on the train.

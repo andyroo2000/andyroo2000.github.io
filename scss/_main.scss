@@ -52,6 +52,7 @@ h1 {
   margin-bottom: .5em;
   font-style: normal;
   font-size: 2em;
+  line-height: 1.1em;
 }
 
 p { margin: 1em 0; }
@@ -62,6 +63,14 @@ em {
 
 strong {
   font-weight: bold;
+}
+
+hr {
+  margin-bottom: 1em;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 
@@ -142,6 +151,7 @@ h1 {
 h2 {
   font-size: 1.5em;
   font-weight: bold;
+  line-height: 1.3em;
 }
 
 .article-link {
@@ -214,6 +224,7 @@ footer .contact {
 li { 
   list-style-type: circle;
   margin-left: 1em;
+  margin-bottom: 1.5em;
 }
 
 ul {
