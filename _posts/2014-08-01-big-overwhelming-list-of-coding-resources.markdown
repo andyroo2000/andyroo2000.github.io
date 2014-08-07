@@ -7,7 +7,7 @@ categories: musings
 
 This is my master-list of coding resources... out of order and all in one place.
 
-The purpose of this is to point you in the right direction when you're thinking, "I have too much free time. I wonder if there is something I could be looking at, that's web-related."
+The purpose of this is to point you in the right direction when you're thinking, "I have too much free time. I wonder if there is something I could be looking at that's web-related."
 
 
 ## General Online Learning Resources
@@ -24,7 +24,10 @@ The purpose of this is to point you in the right direction when you're thinking,
 
 - [Udemy](https://www.udemy.com) - This is sort of a marketplace for video tutorials. There are some excellent courses on Udemy, but some of them are pricey and you definitely want to read the user reviews before making a purchase. I haven't purchased any Udemy tutorials myself, but I've gone through some of their free classes and I've definitely seen some classes that look worth taking.
 
+
 ## In-Person Instruction
 
 - [Bootcamper](http://bootcamper.io) - An extremely thorough list of all the intensive coding bootcamps. They are all generally somewhat pricey and the best ones are difficult to get into (I tried to get into both Hack Reactor and HackerSchool multiple times and was not accepted). That said, if you can make it happen, any of these will probably accelerate your learning tremendously. However, if you're patient and persistent, you can definitely become a professional programmer without attending a single class.
+
+- [General Assembly](https://generalassemb.ly) - An excellent source of in-person instruction in NYC. For me, they hit the sweet spot between excellent serious instruction and time-commitment and cost. I haven't taken any of their courses, but I've heard good things from people who hire programmers.
 
