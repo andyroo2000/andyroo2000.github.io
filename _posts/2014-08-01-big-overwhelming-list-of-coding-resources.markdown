@@ -40,3 +40,22 @@ The purpose of this is to point you in the right direction when you're thinking,
 
 - [Flatiron School prework](http://prework.flatironschool.com) - [Flatiron School](http://flatironschool.com) is a well-regarded Ruby on Rails bootcamp in NYC, and their pre-work is also a good resource for beginners.
 
+
+## Programming Culture
+
+### Twitter
+
+Part of being a programmer is understanding the culture. Others have already made lists of people to follow on Twitter, and I've made my own list of podcasts to checkout, so I'll just link to some of those here.
+
+- [20 Developers to follow in 2014](https://www.digitalocean.com/company/blog/20-developers-to-follow-in-2014) - a great starter list of people to follow on Twitter, with some short bios on each person, so you understand who these people are.
+
+- [9 Developers Who Must Be Followed on Twitter](https://code.tutsplus.com/articles/9-web-developers-who-must-be-followed-on-twitter--net-179) - Another solid list of people to follow on Twitter. Note that there is some overlap between these lists.
+
+- Also, here are some people that didn't make those lists, so you might check these out too: [echoJS](https://twitter.com/echojs) (*JavaScript news*), [Zach Holman](https://twitter.com/holman) (*developer at GitHub*), [I Am Developer](https://twitter.com/iamdevloper) (*satire*), and [JS Daily](https://twitter.com/JavaScriptDaily) (*JavaScript news*). 
+
+### Podcasts
+
+- [Podcasts for JavaScript Lovers](http://andrew-landry.com/podcasts-for-javascript-lovers) - my very own blog post from a while back about podcasts for JavaScript developers.
+
+<!-- ### Videos -->
+
