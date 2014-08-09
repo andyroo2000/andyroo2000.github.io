@@ -56,6 +56,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/_site\/learnyoucode\/sublime\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/learnyoucode\/sublime\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/scss\/global.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -67,15 +76,6 @@
       "outputAbbreviatedPath" : "\/css\/global.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/_site\/musings\/2014\/08\/01\/big-overwhelming-list-of-coding-resources.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/musings\/2014\/08\/01\/big-overwhelming-list-of-coding-resources.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/_site\/scss\/pygment_trac.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -89,12 +89,12 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_site\/learnyoucode\/sublime\/index.html" : {
+    "\/_site\/musings\/2014\/08\/01\/big-overwhelming-list-of-coding-resources.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/learnyoucode\/sublime\/index.html",
+      "inputAbbreviatedPath" : "\/_site\/musings\/2014\/08\/01\/big-overwhelming-list-of-coding-resources.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -104,27 +104,6 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_layouts\/default.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_site\/scss\/global.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/scss\/global.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/global.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_layouts\/post.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_layouts\/post.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -140,14 +119,26 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_site\/musings\/2014\/08\/01\/getting-started.html" : {
+    "\/_layouts\/post.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/musings\/2014\/08\/01\/getting-started.html",
+      "inputAbbreviatedPath" : "\/_layouts\/post.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/_site\/scss\/global.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/scss\/global.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/global.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/images\/bg_hr.png" : {
       "ignoreWasSetByUser" : 0,
@@ -170,6 +161,15 @@
       "outputAbbreviatedPath" : "\/_site\/images\/bg_hr.png",
       "initialSize" : 78,
       "fileType" : 8192
+    },
+    "\/_site\/musings\/2014\/08\/01\/getting-started.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/musings\/2014\/08\/01\/getting-started.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/_site\/learnyoucode\/index.html" : {
       "ignoreWasSetByUser" : 0,

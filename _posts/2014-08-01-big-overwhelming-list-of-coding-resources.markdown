@@ -31,3 +31,12 @@ The purpose of this is to point you in the right direction when you're thinking,
 
 - [General Assembly](https://generalassemb.ly) - An excellent source of in-person instruction in NYC. For me, they hit the sweet spot between excellent serious instruction and time-commitment and cost. I haven't taken any of their courses, but I've heard good things from people who hire programmers.
 
+
+## Sites Like This (getting meta in here)
+
+- [Project Odin](http://www.theodinproject.com/home) - This is an open-source curriculum that takes you from zero to professional [Ruby on Rails](http://rubyonrails.org/) developer. While my site is geared toward those learning JavaScript, all of the stuff on this site about HTML/CSS, JavaScript, Git, and jQuery totally applies to what we're doing here. I'd highly recommend checking this site out, picking a thing you don't know and following some of the steps outlined on this site. There also happens to be a [Meetup](http://www.meetup.com/codecrewny/events/199566412/?a=ea1_grp&rv=ea1&_af_eid=199566412&_af=event) for people following this cirriculum in NYC.
+
+- [Metis prework](https://github.com/thisismetis/prework) - [Metis](http://www.thisismetis.com) is an intensive Ruby on Rails bootcamp from [thoughbot](http://thoughtbot.com), which is a well-regarded Rails consultancy. Although, this is the pre-work for entering the course, anyone just starting out in web devlopment could benefit from it.
+
+- [Flatiron School prework](http://prework.flatironschool.com) - [Flatiron School](http://flatironschool.com) is a well-regarded Ruby on Rails bootcamp in NYC, and their pre-work is also a good resource for beginners.
+
