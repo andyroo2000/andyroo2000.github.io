@@ -57,5 +57,7 @@ Part of being a programmer is understanding the culture. Others have already mad
 
 - [Podcasts for JavaScript Lovers](http://andrew-landry.com/podcasts-for-javascript-lovers) - my very own blog post from a while back about podcasts for JavaScript developers.
 
-<!-- ### Videos -->
+### Videos
+
+- [dev culture](http://www.youtube.com/playlist?list=PLpJqhXBWT7F9WvDPK1AqhExHGSJpUbAxf) - A playlist I made of some videos about programming. They are mostly about philosophy and sometimes have more to do with being familiar with some of the most interesting (to me) personalities in the world of programming and software.
 
