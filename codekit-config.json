@@ -11,15 +11,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/css\/syntax.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/syntax.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/_site\/musings\/2014\/08\/01\/what-is-this.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -28,6 +19,15 @@
       "inputAbbreviatedPath" : "\/_site\/musings\/2014\/08\/01\/what-is-this.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/css\/syntax.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/syntax.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/_site\/musings\/2014\/08\/01\/getting-started-with-git.html" : {
       "ignoreWasSetByUser" : 0,
@@ -65,17 +65,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/scss\/global.scss" : {
+    "\/_site\/musings\/2014\/08\/01\/big-overwhelming-list-of-coding-resources.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/global.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/global.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/_site\/musings\/2014\/08\/01\/big-overwhelming-list-of-coding-resources.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/_site\/scss\/pygment_trac.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -89,14 +86,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_site\/musings\/2014\/08\/01\/big-overwhelming-list-of-coding-resources.html" : {
+    "\/scss\/global.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/musings\/2014\/08\/01\/big-overwhelming-list-of-coding-resources.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/scss\/global.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/global.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/_layouts\/default.html" : {
       "ignoreWasSetByUser" : 0,
@@ -104,6 +104,27 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_layouts\/default.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_site\/scss\/global.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/scss\/global.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/global.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/_layouts\/post.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_layouts\/post.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -119,26 +140,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_layouts\/post.html" : {
+    "\/_site\/musings\/2014\/08\/01\/getting-started.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_layouts\/post.html",
+      "inputAbbreviatedPath" : "\/_site\/musings\/2014\/08\/01\/getting-started.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/_site\/scss\/global.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/scss\/global.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/global.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/images\/bg_hr.png" : {
       "ignoreWasSetByUser" : 0,
@@ -161,15 +170,6 @@
       "outputAbbreviatedPath" : "\/_site\/images\/bg_hr.png",
       "initialSize" : 78,
       "fileType" : 8192
-    },
-    "\/_site\/musings\/2014\/08\/01\/getting-started.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/musings\/2014\/08\/01\/getting-started.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/_site\/learnyoucode\/index.html" : {
       "ignoreWasSetByUser" : 0,
