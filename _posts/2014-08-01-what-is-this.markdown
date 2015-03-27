@@ -19,12 +19,12 @@ This guide will tell you what to learn and roughly how long to spend on each con
 
 ## What technologies will be covered?
 
-I spoke with a recruiter before designing this course to find out what skills would be most likely to land someone a job, who had no professional programming experience.
+I spoke to the recruiter who got my my job and asked him what I should be teaching new developers looking to get their first programming jobs.
 
-*The answer?*
+*The answer? (in his words)*
 
-> Javascript, Javascript, Javascript! They should become extremely comfortable with HTML and CSS and be able to code a responsive website and be comfortable using jQuery and a front-end JavaScript framework, such as [Angular.js](https://angularjs.org) or [Backbone](http://backbonejs.org).
+> Javascript, Javascript, Javascript! They should become extremely comfortable with HTML and CSS and be able to code a responsive website and be comfortable using jQuery and a front-end JavaScript framework, such as [Angular.js](https://angularjs.org) or [Ember](http://emberjs.com).
 
-I think Angular.js is cooler than Backbone, so we're going to focus on Angular.js after you've mastered CSS and vanilla JavaScript.
+I'm currently leaning toward Ember, so we're going to focus on that after you have a little experience with CSS and JavaScript.
 
-This is a highly opinionated syllabus. The purpose is not to give you a superficial understanding of every programming language and framework under the sun, but to give you a clear path toward being a useful programmer who can build cool/useful things. By the end of this, you should have a collection of cool apps that people can see on the internet, a [GitHub](https://github.com) profile full of code, and understanding of how to work on a software development team using all of the latest tools.
+This is a highly opinionated guide. The purpose is not to give you an understanding of every programming language and framework under the sun, but to give you a clear path toward being a useful programmer who can build cool/useful things.

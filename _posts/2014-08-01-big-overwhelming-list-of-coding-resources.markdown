@@ -7,22 +7,16 @@ categories: musings
 
 This is my master-list of coding resources... out of order and all in one place.
 
-The purpose of this is to point you in the right direction when you're thinking, "I have too much free time. I wonder if there is something I could be looking at that's web-related."
+The purpose of this is to point you in the right direction when you're thinking, "I have too much free time. I wonder if there is something I could be looking at that's programming-related."
 
 
 ## General Online Learning Resources
 
-- [Codacademy](http://www.codecademy.com) - This is probably where you should start if you are completely new to programming. They offer an easy introduction to the basic concepts of coding.
+- [Codacademy](http://www.codecademy.com) - This is probably where you should start if you are completely new to programming and aren't ready to spend money on learning this stuff yet. Unfortunately, I'm not huge fan of the interface and I think their instructions are often confusing to beginners.
 
-- [CodeSchool](http://codeschool.com) - Very polished tutorials with videos and coding excercises. It costs, but they have a free trial, and it might be worth subscribing for a month or two if you have the time to spend going through their excercises. I'd recommend trying this after you get the basics down using Codecademy. CodeSchool does a better job of spoonfeeding you some of the more advanced concepts.
+- [CodeSchool](http://codeschool.com) - Very polished tutorials with videos and coding exercises. It costs, but they have a free trial, and it might be worth subscribing for a month or two if you have the time to spend going through their exercises. I'd recommend trying this after you get the basics down using Codecademy. CodeSchool does a better job of spoon-feeding you some of the more advanced concepts.
 
-- [TeamTreehouse](http://teamtreehouse.com) - I'd recommend signing up for their free trial and watching videos on a concept you're having trouble with. Their videos are extremely easy to follow and when you're starting out, these are worth watching. I'm not a huge fan of their multiple choice questions, but I think you'll learn a lot if you just casually watch the videos.
-
-- [Tuts+](https://tutsplus.com) - This is a great site with very up-to-date video tutorials. They tend to move quickly, so I might steer clear of these until you're a little more comfortable programming. These tutorials are great, but they move so quickly that you'll be lost if you try to follow them when you're first starting out.
-
-- [Lynda.com](http://www.lynda.com) - This is the largest premium tutorial site in the world. There are some great classes on Lynda, but there's also a lot of old information and I'd recommend saving Lynda.com for some point in the future when you need some weird tutorial that doesn't exist somewhere else.
-
-- [Udemy](https://www.udemy.com) - This is sort of a marketplace for video tutorials. There are some excellent courses on Udemy, but some of them are pricey and you definitely want to read the user reviews before making a purchase. I haven't purchased any Udemy tutorials myself, but I've gone through some of their free classes and I've definitely seen some classes that look worth taking.
+- [TeamTreehouse](http://teamtreehouse.com) - Their videos are extremely easy to follow and when you're starting out. I'm not a huge fan of their multiple choice questions, but their videos are top notch, and they have a feature that lets you try out what you're learning on a virtual machine that has everything you need to code along. This is fairly expensive, but they offer a 30-day trial and I'd recommend giving it a try.
 
 
 ## In-Person Instruction
@@ -34,11 +28,9 @@ The purpose of this is to point you in the right direction when you're thinking,
 
 ## Sites Like This (getting meta in here)
 
-- [Project Odin](http://www.theodinproject.com/home) - This is an open-source curriculum that takes you from zero to professional [Ruby on Rails](http://rubyonrails.org/) developer. While my site is geared toward those learning JavaScript, all of the stuff on this site about HTML/CSS, JavaScript, Git, and jQuery totally applies to what we're doing here. I'd highly recommend checking this site out, picking a thing you don't know and following some of the steps outlined on this site. There also happens to be a [Meetup](http://www.meetup.com/codecrewny/events/199566412/?a=ea1_grp&rv=ea1&_af_eid=199566412&_af=event) for people following this cirriculum in NYC.
+- [Metis pre-work](https://github.com/thisismetis/prework) - [Metis](http://www.thisismetis.com) is an intensive Ruby on Rails bootcamp from [thoughbot](http://thoughtbot.com), which is a well-regarded Rails consultancy. Although, this is the pre-work for entering the course, anyone just starting out in web development could benefit from it.
 
-- [Metis prework](https://github.com/thisismetis/prework) - [Metis](http://www.thisismetis.com) is an intensive Ruby on Rails bootcamp from [thoughbot](http://thoughtbot.com), which is a well-regarded Rails consultancy. Although, this is the pre-work for entering the course, anyone just starting out in web devlopment could benefit from it.
-
-- [Flatiron School prework](http://prework.flatironschool.com) - [Flatiron School](http://flatironschool.com) is a well-regarded Ruby on Rails bootcamp in NYC, and their pre-work is also a good resource for beginners.
+- [Flatiron School pre-work](http://prework.flatironschool.com) - [Flatiron School](http://flatironschool.com) is a well-regarded Ruby on Rails bootcamp in NYC, and their pre-work is also a good resource for beginners.
 
 
 ## Programming Culture
@@ -51,7 +43,7 @@ Part of being a programmer is understanding the culture. Others have already mad
 
 - [9 Developers Who Must Be Followed on Twitter](https://code.tutsplus.com/articles/9-web-developers-who-must-be-followed-on-twitter--net-179) - Another solid list of people to follow on Twitter. Note that there is some overlap between these lists.
 
-- Also, here are some people that didn't make those lists, so you might check these out too: [echoJS](https://twitter.com/echojs) (*JavaScript news*), [Zach Holman](https://twitter.com/holman) (*developer at GitHub*), [I Am Developer](https://twitter.com/iamdevloper) (*satire*), and [JS Daily](https://twitter.com/JavaScriptDaily) (*JavaScript news*). 
+- Also, here are some people that didn't make those lists, so you might check these out too: [echoJS](https://twitter.com/echojs) (*JavaScript news*), [Zach Holman](https://twitter.com/holman) (*former developer at GitHub*), [I Am Developer](https://twitter.com/iamdevloper) (*satire*), and [JS Daily](https://twitter.com/JavaScriptDaily) (*JavaScript news*).
 
 ### Podcasts
 
@@ -60,4 +52,3 @@ Part of being a programmer is understanding the culture. Others have already mad
 ### Videos
 
 - [dev culture](http://www.youtube.com/playlist?list=PLpJqhXBWT7F9WvDPK1AqhExHGSJpUbAxf) - A playlist I made of some videos about programming. They are mostly about philosophy and sometimes have more to do with being familiar with some of the most interesting (to me) personalities in the world of programming and software.
-
