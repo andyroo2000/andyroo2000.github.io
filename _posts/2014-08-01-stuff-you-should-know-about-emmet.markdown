@@ -11,7 +11,7 @@ I am of the opinion that typing HTML tags is a big waste of time for dumb jerks.
 
 You don't necessarily need to know every shortcut on the Emmet [cheatsheet](http://docs.emmet.io/cheat-sheet), but there are a few shortcuts that are so incredibly useful, that you should stop whatever you're doing and learn them right now.
 
-## !
+## The ! character
 
 `!` is probably one of the biggest timesavers when you're first starting out. Just type `!` and hit the **tab** key and you'll get a skeleton of an HTML5 page structure, which looks something like this:
 
@@ -28,22 +28,25 @@ You don't necessarily need to know every shortcut on the Emmet [cheatsheet](http
 </html>
 ```
 
-## . and \#
+## The . and \# characters
 
 Next, you'll want to learn how to add classes and ids to HTML elements using Emmet. Say you want to add a div with an id of **container**...
 
-If you type `div#container` and hit the **tab** key, you'll get: 
+If you type `div#container` and hit the **tab** key, you'll get:
+
 ```html
 <div id="container"></div>
 ```
+
 and the cursor will be inserted between the opening and closing tags.
 
 If you wanted an image with a class of **gallery**, you could type `img.gallery` and hit the **tab** key to get:
+
 ```html
 <img class="gallery"></img>
 ```
 
-## *
+## The * character
 
 The `*` character multiplies whatever came before it. So if you type `li*5` and hit the **tab** key, you'll get:
 
@@ -55,7 +58,7 @@ The `*` character multiplies whatever came before it. So if you type `li*5` and 
 <li></li>
 ```
 
-## >
+## The > character
 
 The `>` character allows you to nest HTML elements. For example, if you type `ul>li` and hit our trusty **tab** key, you'll get:
 
@@ -83,4 +86,4 @@ These are just a few of the Emmet shortcuts that I use daily, but I highly recom
 
 Then pick a few that you think might be particularly useful for you and write them down or put them in a notes file or something that you can refer to later.
 
-For each of my languages or programming environments, I keep a text file that has keyboard shortcuts that I'm trying to learn. I don't necessarily try and learn a million, but I find the ones that seem most useful and try and use them often enough to really learn them. 
+For each of my languages or programming environments, I keep a text file that has keyboard shortcuts that I'm trying to learn. I don't necessarily try and learn a million, but I find the ones that seem most useful and try and use them often enough to really learn them.

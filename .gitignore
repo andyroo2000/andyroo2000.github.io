@@ -1,2 +1,5 @@
 _site
 codekit-config.json
+.sass-cache*
+*.scssc
+css/*

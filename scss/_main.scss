@@ -48,14 +48,14 @@ body {
   text-align: center;
 }
 
-h1 { 
+h1 {
   margin-bottom: .5em;
   font-style: normal;
   font-size: 2em;
   line-height: 1.1em;
 }
 
-p { margin: 1em 0; }
+p { margin: 1.4em; }
 
 em {
   font-style: italic;
@@ -152,6 +152,7 @@ h2 {
   font-size: 1.5em;
   font-weight: bold;
   line-height: 1.3em;
+  margin-top: 1.4em;
 }
 
 .article-link {
@@ -202,7 +203,7 @@ footer {
   a:link {
     font-weight: normal;
     margin-bottom: 3px;
-  } 
+  }
 }
 
 footer .contact {
@@ -221,7 +222,7 @@ footer .contact {
   color: #FFF;
 }
 
-li { 
+li {
   list-style-type: circle;
   margin-left: 1em;
   margin-bottom: 1.5em;
@@ -278,9 +279,8 @@ article pre.terminal code {
 article {
   padding: 0 0 1.5em 0;
   border-bottom: 1px solid gray;
+  margin-bottom: 1.6em;
 }
-
-
 
 
 /* MEDIA QUERIES-------- */
@@ -337,4 +337,3 @@ article {
     font-size: 2em;
   }
 }
-  
