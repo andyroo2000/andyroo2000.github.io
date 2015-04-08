@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Getting Started"
+title:  "Installing a Text Editor"
 date:   2014-08-01 21:33:46
 categories: musings
 ---
 
 ## Your code, your text editor
 
-[Atom](https://atom.io) is the text editor that I recommend using for now. There are many text editors for coders and people tend to have strong opinions about them, but I'm recommending Atom because it's very beginner friendly, yet still very powerful, and because it's really a great text editor. Don't overthink this... Atom is an excellent editor and there are more important things to worry about right now. You will have the right to have nerd-arguments about text editors after you've built a few applications. People will tell you that you're an idiot if you're not using their favorite text editor (Vim, Emacs, Sublime Text, etc)... You can safely ignore all of this and learn how to use Atom.
+[Atom](https://atom.io) is the text editor that I recommend using for now. There are many text editors for coders and people tend to have strong opinions about them, but I'm recommending Atom because it's very beginner friendly, yet still very powerful, and because it's really a great text editor. It also happens to be free. Don't overthink this... Atom is an excellent editor and there are more important things to worry about right now. You will have the right to have nerd-arguments about text editors after you've built a few applications. People will tell you that you're an idiot if you're not using their favorite text editor (Vim, Emacs, Sublime Text, etc)... You can safely ignore all of this and learn how to use Atom.
 
 One of the reasons I recommend starting with Atom is that it provides you with the basic features that you'll want in a code editor without needing to install plugins or add-ons. That said, you can look around in the [Atom Packages](https://atom.io/packages) repository and see if anything looks useful.
 
